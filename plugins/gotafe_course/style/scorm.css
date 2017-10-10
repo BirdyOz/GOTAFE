@@ -1,0 +1,155 @@
+/* SCORM player customisation */
+
+#scorm_content {
+	width: auto;
+	height: auto;
+}
+#page-mod-scorm-player .clearfix {
+	overflow: hidden;
+}
+#page-mod-scorm-player #page {
+	margin: 0 auto;
+}
+.yui-layout-clip.yui-layout-clip-left {
+	display: none !important;
+}
+.yui-layout-clip.yui-layout-clip-left {
+	display: none !important;
+}
+.yui-layout-unit {
+	width: 100% !important;
+}
+.yui-layout div.yui-layout-bd {
+	width: auto !important;
+	height: auto !important;
+}
+.yui-layout-clip.yui-layout-clip-left {
+	display: none !important;
+}
+.yui-skin-sam .yui-layout {
+	background: white !important;
+}
+#toctree {
+	overflow: visible !important;
+}
+#page-mod-scorm-player #page {
+	margin: 0;
+	/*width: 1100px;*/
+}
+#page-mod-scorm-player #page-content .region-content {
+	padding: 0;
+	height: 735px;
+}
+#page-mod-scorm-player .skiplinks {
+	width: 1100px;
+}
+#page-mod-scorm-player.has_dock {
+	margin-left: 0;
+}
+#page-mod-scorm-player.has_dock #dock {
+	display: none;
+}
+#page-mod-scorm-player #footerwrap {
+	display: none;
+}
+.yui-layout-wrap {
+	left: 0 !important;
+	top: 0 !important;
+	height: 745px !important;
+}
+.yui-layout-doc {
+	overflow: visible;
+	height: 745px !important;
+}
+.yui-layout div.yui-layout-bd {
+	height: 735px !important;
+}
+.yui-layout-unit {
+	left: 0 !important;
+}
+#scorm_content {
+	width: 1100px !important;
+}
+#scorm_object {
+	width: 100% !important;
+}
+#scorm_layout {
+	height: 745px !important;
+	width: 1100px !important;
+}
+
+
+/* iPad [portrait + landscape] */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px;) {
+	#toctree {
+	overflow: visible !important;
+	}
+	#page-mod-scorm-player #page {
+	margin: 0;
+	/*width: 1100px;*/
+	}
+	#page-mod-scorm-player #page-content .region-content {
+	padding: 0;
+	height: 735px;
+	}
+	#page-mod-scorm-player.has_dock {
+	margin-left: 0;
+	}
+	#page-mod-scorm-player.has_dock #dock {
+	display: none;
+	}
+	#page-mod-scorm-player #footerwrap {
+	display: none;
+	}
+	.yui-layout-wrap {
+	left: 0;
+	top: 0;
+	height: 735px !important;
+	}
+	.yui-layout-doc {
+	overflow: visible;
+	}
+	.yui-layout div.yui-layout-bd {
+	height: 725px !important;
+	}
+	.yui-layout-unit {
+	left: 0 !important;
+	}
+	#scorm_content {
+	width: 1100px !important;
+	}
+	#scorm_object {
+	width: 1100px !important;
+	}
+}
+
+
+/*Same window SCORM course*/
+.jumpto_menu {
+	float: right;
+	position: absolute;
+	right: 0;
+	opacity: 1;
+	margin: 3px 100px 0 0;
+}
+#page-mod-scorm-view .jumpto_menu {
+	margin-right: 5px !important;
+}
+.jumpto_menu button {
+	margin: 0;
+	padding: 0 10px 4px 10px;
+}
+.jumpto_menu select {
+	margin: 0;
+}
+#page-mod-scorm-player .breadcrumb-button {
+	margin-top: 8px;
+}
+#page-mod-scorm-player .breadcrumb-button a {
+	color: #fff;
+	background: [[setting:primarydarkcolor]];
+	padding: 5px 10px;
+	border-radius: 4px;
+	text-decoration: none;
+}

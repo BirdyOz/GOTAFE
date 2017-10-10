@@ -1,0 +1,129 @@
+// Chapter 1 - Worksheet 1
+$CATEGORY:CPCPCM2043A/Chapter 1/Worksheet 1
+
+::CPCPCM2043A.Chapter1.Worksheet1.Q1::  Explain your role as an employee/worker in maintaining and practising WH&S principles throughout all work activities. {}
+
+::CPCPCM2043A.Chapter1.Worksheet1.Q2:: Briefly describe three requirements that PCBU/employers must provide in relation to health, safety and welfare of their employees/workers at work. {}
+
+::CPCPCM2043A.Chapter1.Worksheet1.Q3:: List three categories of employees/workers that a PCBU/employer is responsible for on-site. {}
+
+::CPCPCM2043A.Chapter1.Worksheet1.Q4:: Briefly describe two areas where employees/workers must take reasonable care of the health and safety of others, and must co-operate with PCBU/employers in their efforts to comply with WH&S requirements. {}
+
+::CPCPCM2043A.Chapter1.Worksheet1.Q5:: What may be incurred if a construction worker is working on a construction site, without first undertaking the mandatory WH&S induction training? {}
+
+::CPCPCM2043A.Chapter1.Worksheet1.Q6:: List three areas which should be addressed as part of a site induction training session. {}
+
+::CPCPCM2043A.Chapter1.Worksheet1.Q7:: What are Codes of Practice? {}
+
+// Chapter 1 - Worksheet 2
+$CATEGORY:CPCPCM2043A/Chapter 1/Worksheet 2
+
+::CPCPCM2043A.Chapter1.Worksheet2.Q1:: Briefly describe the aims of the National Standard for Manual Handling and the National Code of Practice for Manual Handling. {}
+
+::CPCPCM2043A.Chapter1.Worksheet2.Q2:: State the four main bodily injuries that occur due to poor or incorrect manual handling techniques. {}
+
+::CPCPCM2043A.Chapter1.Worksheet2.Q3:: List the six main steps to follow for correct lifting, carrying or moving loads. {}
+
+::CPCPCM2043A.Chapter1.Worksheet2.Q4::  State the importance when shovelling materials of the length of the handle of the shovel being used. {}
+
+::CPCPCM2043A.Chapter1.Worksheet2.Q5::  [html] <p>State a suitable mechanical aid to use for the following situations.</p> <ol> <li>To carry concrete, bricks, tools, rubbish, etc. around a building site:</li> <li>To lift loads too heavy for manual lifting techniques:</li> <li>To lift awkward or heavy sheet materials:</li> </ol> {}
+
+::CPCPCM2043A.Chapter1.Worksheet2.Q6::  Maintaining a worksite in a safe and clean manner will improve what three main areas? {}
+
+::CPCPCM2043A.Chapter1.Worksheet2.Q7::  What are three areas of concern that dust in the workplace may cause? {}
+
+::CPCPCM2043A.Chapter1.Worksheet2.Q8::  State one method of suppressing dust on-site. {}
+
+// Chapter 1 - Worksheet 3
+$CATEGORY:CPCPCM2043A/Chapter 1/Worksheet 3
+
+::CPCPCM2043A.Chapter1.Worksheet3.Q1::  Briefly describe the main purpose and function of PPE. {}
+
+::CPCPCM2043A.Chapter1.Worksheet3.Q2::  List two items of PPE suitable to protect the following body areas. {}
+
+::CPCPCM2043A.Chapter1.Worksheet3.Q3::  [html] <p>PPE is designed to protect against specific hazards. Briefly describe each of the following hazard groups.</p> <ol> <li>Physical hazards</li> <li>Chemical hazards</li> </ol> {}
+
+::CPCPCM2043A.Chapter1.Worksheet3.Q4::  What is the name given to the stretching impact barrier placed inside a safety helmet between the skull and shell of the helmet? {}
+
+::CPCPCM2043A.Chapter1.Worksheet3.Q5::  How is the back of the neck protected from sunburn when wearing a safety helmet? {}
+
+::CPCPCM2043A.Chapter1.Worksheet3.Q6::  List the three hazard categories that eye protection is designed for. {}
+
+::CPCPCM2043A.Chapter1.Worksheet3.Q7::  State the two main PPE methods used to protect hearing. {}
+
+::CPCPCM2043A.Chapter1.Worksheet3.Q8::  State the main requirements of all safety footwear to provide maximum protection. {}
+
+::CPCPCM2043A.Chapter1.Worksheet3.Q9::  What can be applied to the hands to protect from potential hazards? {}
+
+// Chapter 1 - Worksheet 4
+$CATEGORY:CPCPCM2043A/Chapter 1/Worksheet 4
+
+::CPCPCM2043A.Chapter1.Worksheet4.Q1::  Briefly describe the three main categories of common safety signage used in the building industry. {}
+
+::CPCPCM2043A.Chapter1.Worksheet4.Q2::  Briefly describe the shape, colours and detail/symbol found on a sign used to indicate a toxic hazard. {}
+
+::CPCPCM2043A.Chapter1.Worksheet4.Q3::  State the colours used for a sign that indicates a danger or risk to your health. {}
+
+::CPCPCM2043A.Chapter1.Worksheet4.Q4::  Signs should be placed in a position that allows them to be clearly seen. State the preferred position for safety signs. {}
+
+::CPCPCM2043A.Chapter1.Worksheet4.Q5::  Identify the following signs, stating what they represent. [INSERT IMAGE HERE] {}
+
+// Chapter 1 - Worksheet 5
+$CATEGORY:CPCPCM2043A/Chapter 1/Worksheet 5
+
+::CPCPCM2043A.Chapter1.Worksheet5.Q1::  Briefly describe the difference between an 'acute hazard' and a 'chronic hazard'. {}
+
+::CPCPCM2043A.Chapter1.Worksheet5.Q2::  List the five main common workplace hazard areas. {}
+
+::CPCPCM2043A.Chapter1.Worksheet5.Q3::  What is the order of preference called for controlling hazards on-site? {}
+
+::CPCPCM2043A.Chapter1.Worksheet5.Q4::  List and describe three effects or injuries to the human body caused by work-related hazards. {}
+
+::CPCPCM2043A.Chapter1.Worksheet5.Q5::  Who would normally carry out workplace inspections? {}
+
+// Chapter 1 - Worksheet 6
+$CATEGORY:CPCPCM2043A/Chapter 1/Worksheet 6
+
+::CPCPCM2043A.Chapter1.Worksheet6.Q1::  Name both the Act and regulation that govern health and safety in your relevant state or territory. {}
+
+::CPCPCM2043A.Chapter1.Worksheet6.Q2::  What are the three main tasks required to be completed on the front page of a safe work method statement? {}
+
+::CPCPCM2043A.Chapter1.Worksheet6.Q3::  Explain the term 'duty of care' in relation to: {}
+
+::CPCPCM2043A.Chapter1.Worksheet6.Q4::  Safe work method statements are a compulsory part of any site safety management plan and should form part of the planning for any site task. Using the blank SWMS on the next page, complete the three columns to identify the tasks, risks/hazards and safety controls required to carry out a simple work-based project of your choice. [DEVELOP IN MOODLE]{}
+
+::CPCPCM2043A.Chapter1.Worksheet7.10:: Fire extinguishers come in a variety of easily identifiable colours. State the common colour used to identify a foam-type extinguisher. {}
+
+// Chapter 1 - Worksheet 7
+$CATEGORY:CPCPCM2043A/Chapter 1/Worksheet 7
+
+::CPCPCM2043A.Chapter1.Worksheet7.Q1::  State why it is necessary for an organisation to have an emergency procedure in place. {}
+
+::CPCPCM2043A.Chapter1.Worksheet7.Q2::  Apart from giving clear instructions, recording what was carried out and reporting details to the emergency coordinator, state two other responsibilities of a warden or controller. {}
+
+::CPCPCM2043A.Chapter1.Worksheet7.Q3::  With regards to first aid, what are three areas of concern that a PCBU/employer must ensure are sufficiently covered at their place of work? {}
+
+::CPCPCM2043A.Chapter1.Worksheet7.Q4::  In an emergency situation what does the term 'ICE' mean in regards to emergency details? {}
+
+::CPCPCM2043A.Chapter1.Worksheet7.Q5::  List three common causes of fires on-site. {}
+
+::CPCPCM2043A.Chapter1.Worksheet7.Q6::  State the three elements required to start and sustain a fire. {}
+
+::CPCPCM2043A.Chapter1.Worksheet7.Q7::  List three ordinary combustible materials that may be used as fuel for a Class A fire. {}
+
+::CPCPCM2043A.Chapter1.Worksheet7.Q8::  [html] <p>State the source or fuel and most suitable types of fire extinguishers for use on the following classes of fires.</p> <ol> <li>Class A</li> <li>Class B</li> <li>Class E</li> </ol> {}
+
+::CPCPCM2043A.Chapter1.Worksheet7.Q9::  What type of extinguishers should never be used for Class E fires? {}
+
+// Chapter 1 - Worksheet 8
+$CATEGORY:CPCPCM2043A/Chapter 1/Worksheet 8
+
+::CPCPCM2043A.Chapter1.Worksheet8.Q1::  State the type of invisible hazard to which all plumbers are exposed when working with metallic pipes. {}
+
+::CPCPCM2043A.Chapter1.Worksheet8.Q2::  Locating all existing services before digging is strongly advised to prevent damage and possible injury to workers. What should you do before any excavation work commences? {}
+
+::CPCPCM2043A.Chapter1.Worksheet8.Q3::  List three factors that could contribute to trench collapse. {}
+
+::CPCPCM2043A.Chapter1.Worksheet8.Q4::  List three hazardous conditions associated with working in confined spaces. {}
+
+::CPCPCM2043A.Chapter1.Worksheet8.Q5::  State where you would find information in relation to safety while working on roofs. {}

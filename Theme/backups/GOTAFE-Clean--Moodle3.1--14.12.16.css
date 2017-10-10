@@ -1,0 +1,364 @@
+/*
+* @Author: Greg Bird (@BirdyOz)
+* @Date:   2016-11-02 10:12:36
+* @Last Modified by:   BirdyOz
+* @Last Modified time: 2016-12-08 16:12:46
+*
+* Modified Clean theme for Moodle 3.1, to bring visual design elements from
+* new GOTAFE public website: http://www.gotafe.vic.edu.au/
+**/
+
+
+/**
+ * FONTS
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/**
+ * GENERAL
+ */
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
+.container-fluid {
+    margin-left: 15px;
+}
+
+
+/**
+ * BANNER
+ */
+
+.page-context-header {
+    margin: 3em 0;
+    height: auto !important;
+    font-size: 1em;
+    padding-left: 230px;
+    line-height: 1em;
+    width: auto;
+}
+
+.page-context-header h1 {
+    font-weight: 300;
+    font-size: 1.8em;
+    margin: 0 0 0.5em 0;
+    line-height: 1em;
+}
+
+
+/**
+ * Alternative banner layout for different widths
+ */
+
+/*When the navbar collapses*/
+@media (max-width: 978px) {
+    .page-context-header {
+        margin: -1.5em 0 0 0;
+        min-width: 70%
+    }
+}
+
+/*When the navbar collapses*/
+@media (max-width: 780px) {
+    .page-context-header {
+        margin: -8em 0 0 0;
+        font-size: 0.8em;
+        padding: 160px 0 0 0;
+        width: 100%;
+    }
+
+}
+
+
+/**
+ * DYNAMIC BANNER LOGOS
+ */
+
+.Main .page-context-header {
+    background: url('https://gotafetest31.trainingvc.com.au/file.php/1/theme/banners/Courses-100px.png') no-repeat left;
+}
+
+.Courses .page-context-header {
+    background: url('https://gotafetest31.trainingvc.com.au/file.php/1/theme/banners/Courses-100px.png') no-repeat left;
+}
+
+.NCEE .page-context-header {
+    background: url('https://gotafetest31.trainingvc.com.au/file.php/1/theme/banners/NCEE-100px.png') no-repeat left;
+}
+
+.NCDE .page-context-header {
+    background: url('https://gotafetest31.trainingvc.com.au/file.php/1/theme/banners/NCDE-100px.png') no-repeat left;
+}
+
+.HR .page-context-header {
+    background: url('https://gotafetest31.trainingvc.com.au/file.php/1/theme/banners/HR-100px.png') no-repeat left;
+}
+
+
+/**
+ * DYNAMIC BANNER ELEMENTS
+ */
+
+#codes {
+    font-weight: bold;
+    font-size: 1.0em;
+    line-height: 1em;
+}
+
+#codes span,
+#audience span {
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    /*font-style: italic;*/
+    color: #6585BB;
+}
+
+#year {
+    border: 3px solid #ccc;
+    border-radius: 8px;
+}
+
+#year * {
+    padding: 0.3em 0.7em;
+}
+
+#year .panel-body {
+    font-size: 1em;
+}
+
+#year .panel-heading {
+    font-size: 0.8em;
+}
+
+#year.panel-danger {
+    border-color: #f2dede !important;
+}
+
+
+/**
+ * NAVIGATION
+ */
+
+
+/*Top Nav*/
+
+.navbar,
+.navbar-inverse,
+.navbar-inner,
+.usermenu {
+    background-color: #021A28 !important;
+    background-image: none !important;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+nav.navbar-inner a,
+.usertext {
+    color: white !important;
+}
+
+nav.navbar-inner a:hover,
+.usertext:hover,
+.menubar a {
+    color: #0db896 !important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+/*Reset dropdown menu */
+
+.actionmenu>li>a,
+.actionmenu>li>a,
+.dropdown-menu>li>a,
+.dropdown-menu>li>a,
+.dropdown-submenu>a,
+.dropdown-submenu>a,
+.menu-action-text {
+    color: #021A28 !important;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-submenu:hover>a,
+.dropdown-submenu:focus>a .menu-action-text:hover {
+    color: white !important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+/**
+ * Breadcrumbs
+ */
+
+.breadcrumb {
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+/**
+ * BLOCKS
+ */
+
+.block,
+.dockedtitle {
+    background-color: white !important;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+}
+
+.block .header {
+    background-color: #144563;
+    margin: 0 6px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.block .header h2 {
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+    text-shadow: none;
+    text-transform: none;
+}
+
+
+/**
+ * DOCKED ITEMS
+ */
+
+#dock .dockedtitle {
+    background-image: none !important;
+    padding: 0 0 0 6px;
+    border-radius: 6px;
+    background-color: #144563 !important;
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+    text-shadow: none;
+    text-transform: none;
+}
+
+#dock .css3transform {
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+
+/**
+ * BUTTONS
+ */
+
+#page-mod-scorm-player .breadcrumb-button > a[title="Exit activity"],
+button,
+input.form-submit,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.btn,
+input.form-submit,
+input#id_submitbutton,
+input#id_submitbutton2,
+.path-admin .buttons input[type="submit"],
+td.submit input {
+    color: rgb(20, 69, 99) !important;
+    background-color: white;
+    background-image: none !important;
+    border: 2px solid rgb(20, 69, 99);
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+#page-mod-scorm-player .breadcrumb-button > a[title="Exit activity"]:hover,
+#page-mod-scorm-player .breadcrumb-button > a[title="Exit activity"]:focus,
+button:hover,
+input.form-submit:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:focus,
+input.form-submit:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+    color: white !important;
+    background-color: #0db896 !important;
+    border-color: #0db896 !important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    text-shadow: none;
+}
+
+
+/* PAGE: COURSE > ONE TOPIC FORMAT */
+
+div.onetopic ul.nav-tabs > li a {
+    color: rgb(20, 69, 99) !important;
+    background-color: white;
+    background-image: none !important;
+    border: 2px solid rgb(20, 69, 99);
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin: 2px;
+    text-shadow: none;
+}
+
+
+/*Hover + active*/
+
+div.onetopic ul.nav-tabs > li.active > a,
+div.onetopic ul.nav-tabs > li > a:hover,
+div.onetopic ul.nav-tabs > li > a:focus {
+    color: white !important;
+    background-color: #0db896 !important;
+    border: 2px solid #099!important -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    text-shadow: none;
+}
+
+
+/**
+ * MAIN CONTENT
+ */
+
+
+/**
+ * FOOTER
+ */
+
+#page-footer {
+    text-align: left !important;
+    padding: 2em;
+    color: #fff;
+    background-color: #1f3345
+}
+
+#page-footer .text-center {
+    background: url('http://www.gotafe.vic.edu.au/wp-content/uploads/2016/10/State-Gov-Vic-Logo2.png') no-repeat top right;
+    background-repeat: none;
+    text-align: left !important;
+    margin: 2em 2em 2em 4em;
+}
+
+#page-footer a {
+    color: #fff;
+}

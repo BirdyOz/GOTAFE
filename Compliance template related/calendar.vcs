@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:AUS Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T030000
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=4
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=10
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Celia Turnbull:MAILTO:cturnbull@gotafe.vic.edu.au
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Aileen McL
+ achlan:MAILTO:amclachlan@gotafe.vic.edu.au
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Christine 
+ Nicholas:MAILTO:cnicholas@gotafe.vic.edu.au
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN='Greg Bird
+ ':MAILTO:greg.bird.oz@gmail.com
+ATTACH:CID:197C667FEFE02840BE9F0D6AA426C8B9@gotafe.vic.edu.au
+ATTACH:CID:ABF869A8ED3930469D151B295FC3C4D4@gotafe.vic.edu.au
+ATTACH:CID:9EB4EF9C0D34124592950211CE6ABC6D@gotafe.vic.edu.au
+DESCRIPTION;LANGUAGE=en-US:Please look at these before the meeting\; for co
+ mment:\n\n\nTemplate Student Course Hub (ID17)<http://gotafe.trainingvc.co
+ m.au/course/view.php?id=5642> -  http://gotafe.trainingvc.com.au/course/vi
+ ew.php?id=5642\n\nGOTAFE Compliance Template (ID17) copy 3 testing idea fo
+ r simpler<http://gotafe.trainingvc.com.au/course/view.php?id=5652> - http:
+ //gotafe.trainingvc.com.au/course/view.php?id=5652\n\n\n\n\n..............
+ ..........................................................................
+ .................................................\n--> Join Skype Meeting<
+ https://lync.gotafe.vic.edu.au/meet/cturnbull/4HCNGM0H>\n  This is an onli
+ ne meeting for Skype for Business\, the professional meetings and communic
+ ations app formerly known as Lync.\n\n\nHelp<http://o15.officeredir.micros
+ oft.com/r/rlidLync15?clid=1033&p1=5&p2=2009>\n\n[!OC([1033])!]\n..........
+ ..........................................................................
+ .....................................................\n\n\n
+SUMMARY;LANGUAGE=en-US:Moodle Template Review discussion
+DTSTART;TZID=AUS Eastern Standard Time:20160831T093000
+DTEND;TZID=AUS Eastern Standard Time:20160831T100000
+UID:040000008200E00074C5B7101A82E00800000000F0DC67721D03D201000000000000000
+ 01000000037B41DCF0474E046A2F0C2CA1DE1042E
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20160830T143259Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Skype Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:203392992
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,44 @@
+/*
+* @Author: Greg Bird (@BirdyOz)
+* @Date:   2016-07-07 15:31:56
+* @Last Modified by:   BirdyOz
+* @Last Modified time: 2016-07-07 15:52:46
+*/
+
+/* PAGE: COURSE > ONE TOPIC FORMAT */
+div.onetopic ul.nav-tabs {
+
+    border-color: white !important;
+}
+
+div.onetopic ul.nav-tabs > li {
+    margin-bottom: 5px;
+}
+
+div.onetopic ul.nav-tabs > li a {
+    margin: 0 2px;
+    padding: 8px 20px;
+    background-color: #f5f5f5;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    border-radius: 6px !important;
+    border-color: #092F87 !important;
+}
+
+div.onetopic ul.nav-tabs > li a:hover,
+div.onetopic ul.nav-tabs > li a:focus {
+    background-color: #dfdfdf;
+    color: #555 !important;
+
+}
+
+div.onetopic ul.nav-tabs > li.active > a,
+div.onetopic ul.nav-tabs > li.active > a:hover,
+div.onetopic ul.nav-tabs > li.active > a:focus {
+    background-color: #f58025 !important;
+    color: white !important;
+    font-style: normal !important;
+    border-color: #9C4F2B !important;
+    font-weight: bold;
+}
+

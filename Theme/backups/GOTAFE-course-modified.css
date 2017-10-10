@@ -1,0 +1,889 @@
+.mod_groupselect .edit, .text_to_html, td {
+    word-break: normal !important;
+}
+
+.gradingform_rubric {
+    max-width: none;
+}
+
+
+/* Resize images to fit their container. 14/1/16 */
+
+div.no-overflow {
+overflow: inherit;
+}
+div.no-overflow img {
+max-width:100%;
+max-height:100%;
+height: auto;
+}
+
+/*Fix the issue where the expand and collapse buttons are virtually invisible*/
+#region-main img[src$="switch_plus"], #region-main img[src$="switch_minus"] {
+    background-color: #F48023;
+    width: 1.1em;
+    height: 1.1em;
+}
+
+
+/*This css is to custom from base theme (Andro theme) in Moodle 2.6
+ * To apply this css, go to SITE ADMINISTRATION -> APPEARANCE -> THEMES -> ANDROTHEME or http://your moodle url/admin/settings.php
+ * Then, looking for 'Custom CSS' text input.
+ * Copy & paste the css code into the text input block.
+ * e.g. image on theme folder: background: url([[pix:theme|background]]) #0064a2 repeat;
+ *
+ * developed: June 19, 2016
+ */
+
+
+/*GENERAL*/
+body {
+    background-color: #fff;
+    padding-top: 0;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
+hr {
+    background-color: #b9ab97;
+}
+
+a {
+    color: #0078c1 !important;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+/*Changed 07.09.16 - Removed text transformation and dirrentiated sizes of H1 & H2*/
+/*#page-content section#region-main h1,
+#page-content section#region-main h2 {
+    color: #333;
+    margin: 30px 0;
+    padding: 0;
+    font-size: 200%;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}*/
+
+
+#page-content section#region-main h1 {
+    color: #333;
+    margin: 30px 0;
+    padding: 0;
+    font-size: 200%;
+    /*text-transform: uppercase;*/
+    line-height: 1.2em;
+}
+
+
+#page-content section#region-main h2 {
+    color: #333;
+    margin: 30px 0;
+    padding: 0;
+    font-size: 160%;
+    /*text-transform: uppercase;*/
+    line-height: 1.4em;
+}
+
+/*BLOCK*/
+.block .header, .block h2.header {
+    background-image: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.block .content {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+/*STATUS BAR / NAV BAR*/
+nav.navbar-inner {
+/*    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fad59f, endColorstr=#fa9907);*/
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false);";
+}
+
+header.navbar > nav.navbar-inner > div.container-fluid {
+    background-color: transparent;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    box-shadow: none;
+    border: 0 none;
+    background-color: transparent;
+    background-image: none;
+}
+
+header .nav-collapse {
+    float: right;
+}
+
+
+header.navbar ul.nav {
+    margin-right: 0;
+    display: inline-block;
+    background-color: #e6e7e8;
+/*
+    -moz-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow:  0px 0px 2px 2px rgba(0,0,0,0.1);
+    box-shadow:  0px 0px 2px 2px rgba(0,0,0,0.1);
+*/
+}
+
+header.navbar ul.nav li {
+    border-right: 1px solid #ccc;
+}
+
+
+header.navbar ul.nav a {
+    font-weight: 100;
+    color: #333 !important;
+    text-transform: none;
+}
+
+header.navbar ul.nav a:hover, header.navbar ul.nav a:focus {
+    background: transparent;
+    transition: none;
+    text-decoration: underline;
+}
+
+/* custom page */
+header.navbar ul.nav:first-child {
+    padding-bottom: 3px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+    background-color: #dfdfdf;
+    background-image: none;
+    color: #333;
+}
+
+
+/* login info */
+header.navbar ul.nav.pull-right {
+    float:none;
+    margin-right: 0;
+}
+
+header.navbar li.navbar-text {
+    background-color: #e6e7e8;
+}
+
+header.navbar div.logininfo {
+    visibility: hidden;
+    padding-left: 15px;
+/*    text-indent: -120px;*/
+    min-height: 40px;
+    text-align: right;
+    padding-bottom: 3px;
+}
+
+header.navbar div.logininfo a {
+    visibility: visible;
+}
+
+header.navbar div.logininfo a:last-child {
+    color: transparent !important;
+    background-color: #333333;
+    background-image: url('https://lcms.trainingvc.com.au/share/proxy/alfresco-noauth/api/internal/shared/node/MP79mhMMR1uv99e156Z9oA/content/thumbnails');
+    background-repeat: no-repeat;
+    background-position: 0 -2px;
+    display: inline;
+    padding: 15px 0;
+/*    float: right;*/
+    text-align: left;
+    width: 50px;
+    height: 43px;
+}
+
+header.navbar div.logininfo a:hover:last-child {
+    opacity: 0.8;
+    zoom: 1;
+    filter: alpha(opacity=80);
+}
+
+
+/* HEADER */
+
+header#page-header {
+    background-color: #333;
+    background-image: url('https://lcms.trainingvc.com.au/share/proxy/alfresco-noauth/api/internal/shared/node/LBM6A76bTdSeo608Xkjmng/content/thumbnails');
+    background-position: top left;
+    background-repeat: no-repeat;
+
+    min-height: 180px;
+}
+
+.nav-collapse.active {
+    z-index: 99;
+}
+
+
+/*LOGO*/
+a.logo {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    min-height: 100px;
+}
+
+/*SUB-LOGO - CREATED BY ADDING HTML BLOCK*/
+div#sub-logo {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+div#sub-logo > img {
+    float: left;
+    margin-right: 30px;
+}
+
+img#logo_ncee {
+    width: 100px;
+}
+
+img#logo_ncdea {
+    width: 155px;
+}
+
+
+/*BREADCRUMB*/
+#page-navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+
+    position: relative;
+    bottom: 0;
+}
+
+#page-navbar a {
+    color: #fff !important;
+}
+
+/*REGIONS*/
+div#region-bs-main-and-pre {
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+
+aside#block-region-side-pre, aside#block-region-side-post {
+    padding: 0;
+}
+
+section#region-main {
+    padding: 0 20px;
+}
+
+aside#block-region-side-pre,
+aside#block-region-side-post {
+    background-color: #f6f6f6;
+}
+
+aside#block-region-side-pre .block,
+aside#block-region-side-post .block {
+    border: 0 none;
+    background-color: transparent;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow:  none;
+}
+
+aside#block-region-side-pre .block .header,
+aside#block-region-side-post .block .header {
+    background-color: #555;
+}
+
+aside#block-region-side-pre .block .header h2,
+aside#block-region-side-post .block .header h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+aside#block-region-side-pre .block .content,
+aside#block-region-side-post .block .content {
+    background-color: transparent;
+}
+
+aside#block-region-side-pre a,
+aside#block-region-side-pre span,
+aside#block-region-side-post a,
+aside#block-region-side-post span {
+    color: #655847 !important;
+    line-height: 1.6em !important;
+}
+
+/*EDIT MENU-ACTION*/
+.moodle-actionmenu.show[data-enhanced] .menu a:hover {
+    background-color: #dfdfdf !important;
+    color: #333333 !important;
+}
+
+/*BLOCK - LOGIN*/
+aside#block-region-side-pre .block_login .header,
+aside#block-region-side-post .block_login .header {
+    background-color: #F58025;
+}
+
+aside#block-region-side-pre .block_login input[type="submit"],
+aside#block-region-side-post .block_login input[type="submit"] {
+    width: 100%;
+}
+
+/*BLOCK - SETTING */
+form.adminsearchform input#adminsearchquery {
+    width: 97%;
+    max-width: 97%;
+    padding-left: 0;
+    padding-right: 0;
+    text-indent: 10px;
+}
+
+form.adminsearchform input[type="submit"] {
+    width: 97%;
+}
+
+
+
+/*PAGE CONTENT*/
+div#page-content {
+    padding-bottom: 0;
+}
+
+/*FOOTER*/
+footer#page-footer {
+    background-color: #333;
+    background-image: none;
+    border-top: 0 none;
+}
+
+footer#page-footer * {
+    color: #ffffff !important;
+}
+
+/*FORM*/
+
+/* Orig colour : f58025*/
+#page-mod-scorm-player .breadcrumb-button > a[title="Exit activity"],
+button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
+    color: #fff;
+    background-color: #092F87;
+    background-image: -moz-linear-gradient(top, #092F87, #092F87);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#092F87), to(#092F87));
+    background-image: -webkit-linear-gradient(top, #092F87, #092F87);
+    background-image: -o-linear-gradient(top, #092F87, #092F87);
+    background-image: linear-gradient(to top, #092F87, #092F87);
+    border-color: black;
+}
+
+
+#page-mod-scorm-player .breadcrumb-button > a[title="Exit activity"]:hover, #page-mod-scorm-player  .breadcrumb-button > a[title="Exit activity"]:focus,
+button:hover, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover,
+button:focus, input.form-submit:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+
+/*Reset links in breadcrumbs to orange*/
+
+.breadcrumb-button input {
+    color: white;
+    background-color: #F48023 !important;
+    background-image: -moz-linear-gradient(top, #F48023, #F48023) !important;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F48023), to(#F48023)) !important;
+    background-image: -webkit-linear-gradient(top, #F48023, #F48023) !important;
+    background-image: -o-linear-gradient(top, #F48023, #F48023) !important;
+    background-image: linear-gradient(to top, #F48023, #F48023) !important;
+    border-color: #CC6B1D !important;
+}
+
+.breadcrumb-button input:hover, .breadcrumb-button input:focus {
+    color: white;
+    background-color: #CC6B1D !important;
+    background-image: -moz-linear-gradient(top, #CC6B1D, #CC6B1D) !important;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#CC6B1D), to(#CC6B1D)) !important;
+    background-image: -webkit-linear-gradient(top, #CC6B1D, #CC6B1D) !important;
+    background-image: -o-linear-gradient(top, #CC6B1D, #CC6B1D) !important;
+    background-image: linear-gradient(to top, #CC6B1D, #CC6B1D) !important;
+    border-color: #F48023 !important;
+    }
+
+
+
+/* fix long category name*/
+select#id_parent {
+    width: 100%;
+}
+
+
+
+/*PAGE: LOGIN PAGE*/
+body#page-login-index {
+    background-color: #fff;
+}
+
+body.notloggedin header.navbar,
+body#page-login-index header.navbar {
+    display:none;
+}
+
+
+/* PAGE: MY MOODLE*/
+div#page-content div.block_course_overview {
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+    -webkit-box-shadow: inset 0 0 0 transparent;
+    -moz-box-shadow: inset 0 0 0 transparent;
+    box-shadow: inset 0 0 0 transparent;
+}
+
+div#page-content div.block_course_overview div.header {
+    margin: 0;
+    padding: 0;
+}
+
+
+div#page-content div.block_course_overview div.header h2 {
+/*
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 200%;
+    text-transform: uppercase;
+*/
+}
+
+div#page-content div.block_course_overview div.content {
+    margin: 0;
+    padding: 0;
+}
+
+/* COURSEBOX */
+
+div.coursebox {
+    background: transparent url('https://lcms.trainingvc.com.au/share/proxy/alfresco-noauth/api/internal/shared/node/BG5aH3f5TqKMUTszkMcBpg/content/thumbnails') no-repeat 10px 15px;
+    background-color: #fcfcfc !important;
+    border-bottom: 1px solid #dfdfdf !important;
+    -moz-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1) !important;
+    -webkit-box-shadow:  0px 0px 2px 2px rgba(0,0,0,0.1) !important;
+    box-shadow:  0px 0px 2px 2px rgba(0,0,0,0.1) !important;
+}
+
+div.coursebox.collapsed {
+    margin-bottom: 15px;
+}
+
+div.coursebox > .info > .coursename a {
+    background-image: none;
+}
+
+/* Fixed style of all course box text */
+div.coursebox > .info > .coursename a,
+div.coursebox h2.title a,
+div.coursebox h3.coursename a {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 100;
+    text-transform: none !important;
+}
+
+/* Adjust margin for a - course list at category page*/
+div.coursebox > .info > .coursename a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+/* Adjust margin for h2 - course list at front page */
+div.coursebox h2.title {
+    padding-top: 5px !important;
+    padding-bottom: 15px !important;
+    padding-left: 50px !important;
+    margin: 0 !important;
+}
+
+/* Adjust margin for h3 - course list at category page*/
+div.coursebox h3.coursename {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+div.coursebox > .info > .coursename a,
+div.coursebox h2.title a,
+div.coursebox h3.coursename a {
+    font-weight: 100;
+}
+
+div.coursebox > .info > .coursename a.dimmed,
+div.coursebox h2.title a.dimmed,
+div.coursebox h3.coursename a.dimmed {
+    color: #777 !important;
+}
+
+/* PAGE: COURSE INDEX CATEGORY */
+body#page-course-index-category div.coursename > a {
+    padding-left: 40px;
+}
+
+/* PAGE: COURSE > ONE TOPIC FORMAT */
+
+div.onetopic ul.nav-tabs {
+    background-color: white !important; /*GBIRD Removed tag BG colour*/
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+}
+
+div.onetopic ul.nav-tabs > li {
+    margin-bottom: 5px;
+    }
+
+div.onetopic ul.nav-tabs > li a {
+    margin: 0 2px;
+    padding: 8px 20px;
+    border-top: 1px solid #0078c1;
+    border-left: 1px solid #0078c1;
+    border-right: 1px solid #0078c1;
+    border-bottom: 1px dotted #0078c1;
+    color: #092f87 !important;
+    background-color: #fafafa !important;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*Increased contrast for plus and minus icons*/
+/*div.onetopic ul.nav-tabs > li a img {
+background: #092f87;
+width: 15px;
+height: 15px;
+}*/
+
+div.onetopic ul.nav-tabs > li a:hover,
+div.onetopic ul.nav-tabs > li a:focus {
+    background-color: #7fbbe0 !important;
+    color: black !important;
+
+    -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow:  0px 0px 1px 1px rgba(0,0,0,0.1);
+    box-shadow:  0px 0px 1px 1px rgba(0,0,0,0.1);
+
+    -webkit-transition: background-color 200ms ease-in;
+    -moz-transition: background-color 200ms ease-in;
+    -o-transition: background-color 200ms ease-in;
+    transition: background-color 200ms ease-in;
+}
+
+/*Active tab*/
+div.onetopic ul.nav-tabs > li.active > a,
+div.onetopic ul.nav-tabs > li.active > a:hover,
+div.onetopic ul.nav-tabs > li.active > a:focus {
+    background-color: #092F87 !important;
+    color: white !important;
+    border-top: 2px solid #0078c1;
+    border-left: 2px solid #0078c1;
+    border-right: 1px dotted #0078c1;
+    border-bottom: none;
+    font-style: normal !important;
+}
+
+
+div.single-section.onetopic li.section.main {
+    border-bottom: 0;
+}
+
+div.single-section.onetopic .section-navigation {
+    background-color: #e9e9e9;
+    overflow:hidden;
+    border-top: 3px solid #dfdfdf;
+    padding: 12px 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+div.onetopic span.mdl-left > a,
+div.onetopic span.mdl-right > a {
+    background-color: ;
+    padding: 10px 25px;
+    margin: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    color: #092f87 !important;
+    background-color: #fafafa !important;
+    border:1px solid #092f87 !important;
+}
+
+div.onetopic span.mdl-left > a:hover,
+div.onetopic span.mdl-left > a:focus,
+div.onetopic span.mdl-right > a:hover,
+div.onetopic span.mdl-right > a:focus {
+    text-decoration: none;
+    color: black;
+    background-color: #7fbbe0 !important;
+
+    -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow:  0px 0px 1px 1px rgba(0,0,0,0.1);
+    box-shadow:  0px 0px 1px 1px rgba(0,0,0,0.1);
+
+    -webkit-transition: background-color 200ms ease-in;
+    -moz-transition: background-color 200ms ease-in;
+    -o-transition: background-color 200ms ease-in;
+    transition: background-color 200ms ease-in;
+}
+
+div.onetopic span.mdl-left > a:active,
+div.onetopic span.mdl-right > a:active {
+    background-color: #fff;
+}
+
+
+/* PAGE: REPORT GRADER */
+#page-grade-report-grader-index #user-grades {
+    margin-top: 0;
+}
+
+/* PAGE - VET COMMON SEARCH PAGE*/
+body#page-mod-rmc-search #page-content h1 {
+    text-transform: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 5px 0;
+}
+
+/* DIMMED - CATEGORY AND COURSES */
+a .tab_content.dimmed, a.dimmed, a.dimmed:link, a.dimmed:visited, a.dimmed_text, a.dimmed_text:link, a.dimmed_text:visited, .dimmed_text, .dimmed_text a, .dimmed_text a:link, .dimmed_text a:visited, .usersuspended, .usersuspended a, .usersuspended a:link, .usersuspended a:visited, .dimmed_category, .dimmed_category a {
+    color: #777 !important;
+}
+
+
+#course-category-listings .listitem[data-visible="0"] > div > a {
+    color: #777 !important;
+}
+
+
+/*************************************************
+ADD ACTIVITY/RESOURCES AJAX - Fix
+*************************************************/
+.typesummary {background: #fff;}
+.choosercontainer #chooseform .options {
+            border-bottom: 1px solid #bbb !important;
+    position: relative !important;
+}
+.choosercontainer #chooseform .alloptions {
+    box-shadow: 0 0 30px 0 #ccc inset !important;
+    max-width: 20.3em !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+.choosercontainer .instruction,
+.choosercontainer #chooseform .selected .typesummary {
+            display: block !important;
+            background-color: #fff !important;
+            bottom: 0 !important;
+            left: 20.3em !important;
+    line-height: 2em !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    padding: 1.6em !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+}
+.choosercontainer #chooseform .instruction,
+.choosercontainer #chooseform .typesummary {display: none;}
+
+
+/*RESPONSIVE*/
+/*TABLET LANDSCAPE*/
+@media (max-width: 1024px) {
+    body {
+
+    }
+}
+
+
+/*TABLET PORTRAIT*/
+@media (max-width: 768px) {
+     body {
+        padding: 0 !important;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-bottom: 0 !important;
+    }
+     div#sub-logo > img {
+        float: none;
+        margin-right: 5px;
+        display: block;
+    }
+
+    img#logo_ncee {
+        width: 65px;
+    }
+
+    img#logo_ncdea {
+        width: 105px;
+        margin-top: 20px;
+    }
+
+}
+
+
+/*MOBILE LANDSCAPE*/
+@media(max-width: 480px) {
+    body {
+
+
+    }
+
+
+
+}
+
+
+/*MOBILE PORTRAIT*/
+@media(max-width: 320px) {
+    body {
+
+    }
+}
+
+#toctree  #scorm_layout {
+    width: auto!important;
+}
+
+#toctree  #scorm_content {
+    width: 72%!important;
+}
+
+#toctree #scorm_toc {
+    height: 100%!important;
+    overflow: auto!important;
+}
+
+/* GRADE REPORT FIXES 12/01/16 */
+
+.floater[aria-hidden="true"] {
+    display: none;
+}
+
+.gradeparent {
+    position: relative;
+}
+
+/**
+ * To fix issue with the display of checklists
+ */
+
+.checklist li {
+    padding-bottom: 0.5em;
+    margin-left: -4em;
+}
+
+
+
+.checklist li label {
+    margin-left: 1em !important;
+    display: inline-block;
+    vertical-align: top;
+    /*margin-top: -1.5em;*/
+}
+
+
+label.itemoptional {
+    color: #333 !important;
+    /*margin-top: -1.5em;*/
+}
+
+.checklist li input.checklistitem {
+   margin-left: -1em !important;
+}
+
+.checklist li img[class*="teacher"] {
+    margin-left: -2.5em;
+    margin-top: 0.1em;
+    float: left;
+    /*margin-left: -1em !important;*/
+    opacity: 0.2;
+}
+
+
+
+.checklist label.itemgreen {
+    color:   #009933 !important;
+}
+
+.checklist img[src*="colour_green"] {
+    background:  #009933 !important;
+    width: 10px;
+    width: 10px;
+    margin: 2px;
+    content:url("http://gotafetest29.trainingvc.com.au/file.php/1/theme/HR/checkbox%20-%2010pc%20-%2012%20x%2012.png") !important;
+}
+
+
+.checklist label.itemred {
+    color:   #A80D16 !important;
+}
+
+.checklist img[src*="colour_red"] {
+    background:  #A80D16 !important;
+    width: 10px;
+    width: 10px;
+    margin: 2px;
+    content:url("http://gotafetest29.trainingvc.com.au/file.php/1/theme/HR/checkbox%20-%2010pc%20-%2012%20x%2012.png") !important;
+}
+
+.checklist label.itemorange {
+    color:   #F48023 !important;
+}
+
+.checklist img[src*="colour_orange"] {
+    background:  #F48023 !important;
+    width: 10px;
+    width: 10px;
+    margin: 2px;
+    content:url("http://gotafetest29.trainingvc.com.au/file.php/1/theme/HR/checkbox%20-%2010pc%20-%2012%20x%2012.png") !important;
+}
+
+
+
+.checklist label.itempurple {
+    color:   #092F87 !important;
+}
+
+.checklist img[src*="colour_purple"] {
+    background:  #092F87 !important;
+    width: 10px;
+    width: 10px;
+    margin: 2px;
+    content:url("http://gotafetest29.trainingvc.com.au/file.php/1/theme/HR/checkbox%20-%2010pc%20-%2012%20x%2012.png") !important;
+}

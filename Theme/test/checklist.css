@@ -1,0 +1,97 @@
+/*
+* @Author: Greg Bird (@BirdyOz)
+* @Date:   2016-08-24 11:08:42
+* @Last Modified by:   BirdyOz
+* @Last Modified time: 2016-08-26 07:59:54
+*/
+
+
+
+/**
+ * To fix issue with the display of checklists
+ */
+
+.checklist li {
+    padding-bottom: 0.5em;
+    margin-left: -4em;
+}
+
+
+
+.checklist li label {
+    margin-left: 1em !important;
+    display: inline-block;
+    vertical-align: top;
+    /*margin-top: -1.5em;*/
+}
+
+
+label.itemoptional {
+    color: #333 !important;
+    /*margin-top: -1.5em;*/
+}
+
+.checklist li input.checklistitem {
+   margin-left: -1em !important;
+}
+
+.checklist li img[class*="teacher"] {
+    margin-left: -2.5em;
+    margin-top: 0.1em;
+    float: left;
+    /*margin-left: -1em !important;*/
+    opacity: 0.2;
+}
+
+
+
+.checklist label.itemgreen {
+    color:   #009933 !important;
+}
+
+.checklist img[src*="colour_green"] {
+    background:  #009933 !important;
+    width: 10px;
+    width: 10px;
+    margin: 2px;
+    content:url("http://gotafetest29.trainingvc.com.au/file.php/1/theme/HR/checkbox%20-%2010pc%20-%2012%20x%2012.png") !important;
+}
+
+
+.checklist label.itemred {
+    color:   #A80D16 !important;
+}
+
+.checklist img[src*="colour_red"] {
+    background:  #A80D16 !important;
+    width: 10px;
+    width: 10px;
+    margin: 2px;
+    content:url("http://gotafetest29.trainingvc.com.au/file.php/1/theme/HR/checkbox%20-%2010pc%20-%2012%20x%2012.png") !important;
+}
+
+.checklist label.itemorange {
+    color:   #F48023 !important;
+}
+
+.checklist img[src*="colour_orange"] {
+    background:  #F48023 !important;
+    width: 10px;
+    width: 10px;
+    margin: 2px;
+    content:url("http://gotafetest29.trainingvc.com.au/file.php/1/theme/HR/checkbox%20-%2010pc%20-%2012%20x%2012.png") !important;
+}
+
+
+
+.checklist label.itempurple {
+    color:   #092F87 !important;
+}
+
+.checklist img[src*="colour_purple"] {
+    background:  #092F87 !important;
+    width: 10px;
+    width: 10px;
+    margin: 2px;
+    content:url("http://gotafetest29.trainingvc.com.au/file.php/1/theme/HR/checkbox%20-%2010pc%20-%2012%20x%2012.png") !important;
+}

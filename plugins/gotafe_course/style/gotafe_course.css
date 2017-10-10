@@ -1,0 +1,851 @@
+
+/*************************************************
+GENERAL STYLES
+*************************************************/
+
+* {
+	text-shadow: none !important;
+}
+body {
+	background-color: [[setting:backgroundcolor]];
+	font-family: Arial, "Helvetica Neue", Helvetica, Gotham, sans-serif;
+	padding-top: 40px;
+}
+a.logo {
+	background: url([[setting:logo]]) no-repeat 0 0;
+	display: block;
+	min-height: 100px;
+	max-width: 300px;
+	margin: 10px 0 0 10px;
+}
+a.logo .text {
+	display:none;
+}
+a, a:link, a:visited {
+	color: [[setting:primarydarkcolor]];
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+#page-navbar a.dimmed, 
+#page-navbar a.dimmed:link, 
+#page-navbar a.dimmed:visited, 
+#page-navbar a.dimmed_text, 
+#page-navbar a.dimmed_text:link, 
+#page-navbar a.dimmed_text:visited, 
+#page-navbar .dimmed_text, 
+#page-navbar .dimmed_text a, 
+#page-navbar .dimmed_text a:link, 
+#page-navbar .dimmed_text a:visited {
+	color: #fff;
+	opacity: 0.5;
+}
+h1, h2, h3 {
+	line-height: 38px;
+	font-weight: normal;
+}
+h1 {
+	font-size: 32px
+}
+h2 {
+	font-size: 26px
+}
+h3 {
+	font-size: 20px
+}
+h4 {
+	font-size: 14px
+}
+h5 {
+	font-size: 12px
+}
+h6 {
+	font-size: 9px
+}
+h1 small {
+	font-size: 20px
+}
+h2 small {
+	font-size: 14px
+}
+h3 small {
+	font-size: 12px
+}
+h4 small {
+	font-size: 12px
+}
+
+input {
+	margin: 0 0 0 5px !important;
+}
+
+
+/*************************************************
+LAYOUT
+*************************************************/
+#page {
+	margin: 0 auto !important;
+}
+/* top menu - contains custom menu and login info */
+
+.container-fluid {
+	max-width: auto;
+	padding: 0;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background: [[setting:primarylightcolor]];
+}
+
+/*
+#block-region-side-pre{
+	padding: 10px 0 10px 10px;
+}
+#block-region-side-post{
+	padding: 10px 10px 10px 0;
+}
+
+*/
+
+
+#page-content {
+	background: #ffffff;
+	padding-bottom: 20px;
+}
+/*#page-content, #page-navbar, #page-footer {
+	-webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}*/
+#page-content h1, #page-content h2, #page-content h3 {
+        font-weight: bold;
+}
+
+.section, .activity {
+	padding: 0 !important;
+	margin: 0;
+}
+
+.generaltable tr,
+.generaltable td,
+.generaltable th {
+	border: 1px solid #ddd;
+}	
+
+
+/*************************************************
+NAVBAR
+*************************************************/
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+	color: #fff;
+	text-decoration: none;
+	background-color: [[setting:primarydarkcolor]];
+	background-image: -moz-linear-gradient(top, [[setting:primarydarkcolor]], [[setting:primarylightcolor]]);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from([[setting:primarydarkcolor]]), to([[setting:primarylightcolor]]));
+	background-image: -webkit-linear-gradient(top, [[setting:primarydarkcolor]], [[setting:primarylightcolor]]);
+	background-image: -o-linear-gradient(top, [[setting:primarydarkcolor]], [[setting:primarylightcolor]]);
+	background-image: linear-gradient(to bottom, [[setting:primarydarkcolor]], [[setting:primarylightcolor]]);
+	background-repeat: repeat-x;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: [[setting:primarydarkcolor]];
+	background-image: -moz-linear-gradient(top, [[setting:primarydarkcolor]], [[setting:primarylightcolor]]);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from([[setting:primarydarkcolor]]), to([[setting:primarylightcolor]]));
+	background-image: -webkit-linear-gradient(top, [[setting:primarydarkcolor]], [[setting:primarylightcolor]]);
+	background-image: -o-linear-gradient(top, [[setting:primarydarkcolor]], [[setting:primarylightcolor]]);
+	background-image: linear-gradient(to bottom, [[setting:primarydarkcolor]], [[setting:primarylightcolor]]);
+	background-repeat: repeat-x;
+	outline: 0;
+}
+button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.75);
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: [[setting:primarydarkcolor]];
+	*background-color: [[setting:primarydarkcolor]];
+	background-image: -moz-linear-gradient(top, [[setting:primarylightcolor]], [[setting:primarydarkcolor]]);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from([[setting:primarylightcolor]]), to([[setting:primarydarkcolor]]));
+	background-image: -webkit-linear-gradient(top, [[setting:primarylightcolor]], [[setting:primarydarkcolor]]);
+	background-image: -o-linear-gradient(top, [[setting:primarylightcolor]], [[setting:primarydarkcolor]]);
+	background-image: linear-gradient(to top, [[setting:primarylightcolor]], [[setting:primarydarkcolor]]);
+	border-color: [[setting:primarydarkcolor]];
+	margin: 5px !important;
+	padding: 5px 10px;
+}
+
+
+button:hover, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:focus, input.form-submit:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus, button:active, input.form-submit:active, input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:active, button.active, input.form-submit.active, input[type="button"].active, input[type="submit"].active, input[type="reset"].active, button.disabled, input.form-submit.disabled, input[type="button"].disabled, input[type="submit"].disabled, input[type="reset"].disabled, button[disabled], input.form-submit[disabled], input[type="button"][disabled], input[type="submit"][disabled], input[type="reset"][disabled] {
+	color: #fff;
+	background: [[setting:primarydarkcolor]];
+}
+
+
+/*************************************************
+YUI
+*************************************************/
+.file-picker .fp-repo-area {
+	font-size: 1.2em;
+}
+.yui3-skin-sam .yui3-panel .yui3-widget-hd .yui3-widget-buttons {
+	padding: 0 8px 0 0;
+}
+
+.singlebutton div {
+	margin: 5px 0;
+}
+
+/* rollover calendar block */
+h2.eventtitle {
+	font-size: 1.3em;
+}
+
+
+.coursebox {
+    border: 1px solid #dddddd;
+    border-radius: 0;
+    box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+
+/* ADD COURSE PAGE */
+
+table#form td.submit, 
+.form-buttons, 
+.path-admin .buttons, 
+#fitem_id_submitbutton, 
+.fp-content-center form + div, 
+div.backup-section + form, 
+#fgroup_id_buttonar {
+	background: none;
+	border: none;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+.mform .fdescription.required {
+	margin-bottom: 20px;
+}
+
+.mform fieldset.collapsible legend a.fheader {
+	margin-left: 0;
+}
+
+
+
+/*************************************************
+THEME SELECTION PAGE
+*************************************************/
+#page-admin-theme-index #region-main img {
+	width: 100%;
+	max-width: 500px;
+}
+
+
+/*************************************************
+HEADER
+*************************************************/
+#page-header { 
+	color: [[setting:blockheadertextcolor]];
+}
+.bannertext {
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	/*color: [[setting:bannertext]];*/
+	font-size: 1.5em;
+	color: #333;
+}
+.headimage {
+	float: right;
+}
+#page-header {
+	padding: 0;
+	background: [[setting:headerbgcolor]];
+	position: relative;
+}
+#page-header, #page {
+	margin: 0;
+}
+/* end header */
+
+/*************************************************
+BUTTONS OR FORMS
+*************************************************/
+
+button:hover, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:focus, input.form-submit:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+	color: #fff;
+	text-decoration: none;
+	background-position: 0 -25px;
+	-webkit-transition: background-position .1s linear;
+	-moz-transition: background-position .1s linear;
+	-o-transition: background-position .1s linear;
+	transition: background-position .1s linear
+}
+button:focus, input.form-submit:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+	outline: thin dotted #000;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px
+}
+button.active, input.form-submit.active, input[type="button"].active, input[type="submit"].active, input[type="reset"].active, button:active, input.form-submit:active, input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05);
+	-moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05);
+	box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05)
+}
+
+/* end inputs and buttons */
+
+
+/*************************************************
+BREADCRUMB, NAVBAR
+*************************************************/
+
+.breadcrumb {
+	background: none;
+	color: #fff;
+	margin: 0;
+}
+.breadcrumb a {
+	color: #fff;
+	font-weight: bold;
+}
+.breadcrumb > li > .divider {
+	font-size: 0.8em;
+}
+.breadcrumb-button {
+	margin-right: 10px !important;
+	margin-top: 0;
+}
+.breadcrumb-button .singlebutton div {
+	margin: 0;
+}
+.breadcrumb-nav {
+	margin-bottom: 0;
+	margin-top: 2px;
+}
+.breadcrumb-nav .breadcrumb {
+	background: url([[pix:theme|home_nav]]) no-repeat left 8px;
+	padding-left: 25px;
+	margin-left: 10px;
+	float: left;
+}
+#page-navbar {
+	width: 100%;
+	display: block;
+	background: [[setting:pagenavbgcolor]];
+	/*height: 2.8em;
+	background: -moz-linear-gradient(90deg, #686868 17%, #4d4d4d 82%);
+	background: -webkit-linear-gradient(90deg, #686868 17%, #4d4d4d 82%);
+	background: -o-linear-gradient(90deg, #686868 17%, #4d4d4d 82%);
+	background: -ms-linear-gradient(90deg, #686868 17%, #4d4d4d 82%);
+	background: linear-gradient(180deg, #686868 17%, #4d4d4d 82%);*/
+}
+
+input#navsearchbox, #page-navbar input[type="submit"] {
+	margin-bottom: 0;
+}
+#page-navbar .breadcrumb-button label {
+	color: white;
+	font-size: .8em;
+}
+input#navsearchbox {
+	padding: 0 6px;
+}
+
+/*************************************************
+TOP MENU NAVIGATION
+*************************************************/
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+	padding: 0;
+}
+.navbar .brand {
+    display: none !important;
+	/*margin-left: 0;
+	padding: 5px 0;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 400;*/
+}
+.navbar-text {
+	color: #000;
+	line-heigth: 1em !important;
+}
+.navbar .nav.pull-right {
+	margin-right: 10px;
+}
+.navbar .nav > li > a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: [[setting:primarydarkcolor]];
+}
+.navbar .btn-navbar {
+	padding: 7px;
+}
+
+/*************************************************
+LOGIN
+*************************************************/
+.loginpanel {
+	border: 1px solid #dddddd;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 700px;
+}
+
+.logininfo {
+	padding-left: 15px;;
+}
+.loginbox.twocolumns .loginpanel {
+	border-right: 1px solid #ddd;
+}
+
+/*************************************************
+FORGOTTEN PASSWORD
+*************************************************/
+#page-login-forgot_password .boxwidthnormal {
+	width: 100%;
+	padding: 20px 0;
+}
+
+
+/*************************************************
+FOOTER
+*************************************************/
+#page-footer {
+	border-top: 1px solid #d3d4d6;
+	margin-top: 0;
+	background: #fafafa;
+	background: -moz-linear-gradient(90deg, #f2f2f2 17%, #fafafa 82%);
+	background: -webkit-linear-gradient(90deg, #f2f2f2 17%, #fafafa 82%);
+	background: -o-linear-gradient(90deg, #f2f2f2 17%, #fafafa 82%);
+	background: -ms-linear-gradient(90deg, #f2f2f2 17%, #fafafa 82%);
+	background: linear-gradient(180deg, #f2f2f2 17%, #fafafa 82%);
+}
+
+#page-footer #footnotewrapper {
+	padding: 0 30px;
+	text-align: left;
+	min-height: 20px;
+}
+#page-footer .helplink {
+	float: right;
+}
+#page-footer #copyright {
+	padding: 0 10px 0 0;
+	float: left;
+}
+#page-footer .text-left {
+	float: left;
+}
+#page-footer a:hover, #page-footer a:active {
+	text-decoration: underline;
+}
+
+
+/*************************************************
+BLOCKS
+*************************************************/
+
+.block {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 0;
+	/*margin: 15px 15px 0 15px;*/
+	-webkit-box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.1);
+	background: [[setting:blockbgcolor]];
+}
+.block .content {
+        background: [[setting:blockbgcolor]];
+		line-height: 2em;
+}
+/*.block .header {-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}*/
+.block .header .title h2, .block h3.main {
+	text-transform: none;
+	text-shadow: none;
+	padding: 2px 10px;
+	font-weight: normal;
+	text-align: left;
+	color: [[setting:blockheadertextcolor]];
+}
+#region-pre .skip-block-to {
+	height: 0px;
+}
+
+.block .header {
+	border-bottom: 0;
+	background: -moz-linear-gradient(90deg, [[setting:primarylightcolor]] 1%, [[setting:primarydarkcolor]] 99%);
+	background: -webkit-linear-gradient(90deg, [[setting:primarylightcolor]] 1%, [[setting:primarydarkcolor]] 99%);
+	background: -o-linear-gradient(90deg, [[setting:primarylightcolor]] 1%, [[setting:primarydarkcolor]] 99%);
+	background: -ms-linear-gradient(90deg, [[setting:primarylightcolor]] 1%, [[setting:primarydarkcolor]] 99%);
+	background: linear-gradient(180deg, [[setting:primarylightcolor]] 1%, [[setting:primarydarkcolor]] 99%);
+	background-image: linear-gradient(to bottom, [[setting:primarylightcolor]], [[setting:primarydarkcolor]]);
+	clear: both;
+}
+
+.block .header h2 {
+	font-size: 1.1em;
+	color: [[setting:blockheadertextcolor]];
+}
+
+.block .header, .block h2.header {
+	padding: 4px 4px;
+}
+.block .header .block_action {
+	padding: 4px 0 0;
+}
+.block_navigation .header .block_action {
+	padding: 4px 0 0;
+}
+.block .header .block_action img {
+	vertical-align: top;
+}
+
+.block .content .info,
+.block_recent_activity .activitydate, .block_recent_activity .activityhead {
+	text-align: left;
+}
+.block .header .commands, .block .header .block_action, .block_adminblock .content, .block .footer {
+	padding: 5px 0;
+	color: [[setting:primarydarkcolor]];
+}
+
+/* Block - Navigation */
+.block_navigation .block_tree li ul {
+	padding-left: 5px;
+}
+
+.block_navigation.block li p.navigation_node {
+	background: url([[pix:theme|home_grey]]) 1px no-repeat !important; 
+	margin: 0 !important; 
+	padding-left: 25px !important; 
+}
+
+/*Block - Login*/
+.block_login .content {
+	max-width: 100% !important;
+}
+.block_login input#login_username, 
+.block_login input#login_password {
+	width: 90%;
+}
+
+#notice {
+	width: auto;
+}
+
+/*Blocl - Add a block*/
+.block_adminblock .content .singleselect {
+	margin: 0 5px;
+}
+
+/*************************************************
+HOMEPAGE (MY PAGE)
+*************************************************/
+#page-my-index #region-main .block_course_overview .coursebox {
+	border: none;
+	box-shadow: none;
+	padding: 0;
+}
+#page-site-index #page-navbar {
+	display: block;
+}
+
+.collapsibleregioncaption {
+	background: #f4f4f4;
+}
+
+.mod-indent-outer, .contentwithoutlink {
+	padding: 0 !important;
+}
+
+.form-item .form-label, .mform .fitem div.fitemtitle {
+        text-align: left;
+}
+
+.path-backup .mform .fitem .felement {
+        margin-left: 0 !important;
+}
+
+input.fp-btn-choose {
+	display: block;
+	clear: both;
+}
+
+/*************************************************
+COURSE CATEGORY
+*************************************************/
+
+#page-course-index-category .singleselect {
+	width: 100%;
+}
+
+/*************************************************
+EDIT COURSE
+*************************************************/
+.section .activity .editing_move {
+	float: left;
+	position: relative;
+}
+#page-course-view-topics .section .label .contentwithoutlink, 
+#page-course-view-topics .section .label .activityinstance {
+	display: table;
+}
+
+/*************************************************
+QUIZ
+*************************************************/
+/*
+#page-mod-quiz-edit div.quizpage span.pagetitle {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+#page-mod-quiz-edit .editq div.question div.qnum {
+	display: none;
+}
+
+.questionbankwindow.block {
+	width: 100%;
+	float: left;
+	margin: 0 0 20px 0;
+}
+
+#page-mod-quiz-edit .questionbankwindow div.header {
+	margin: 0;
+	background: [[setting:primarylightcolor]];
+}
+#page-mod-quiz-edit .editq div.question div.content .randomquestioncategory a {
+	max-width: auto;
+}
+#page-mod-quiz-edit div.quizpage .pagecontent {
+	clear: both;
+	background: none;
+	border-radius: 0;
+	border: 1px solid [[setting:primarylightcolor]];
+}
+#page-mod-quiz-edit div.editq div.question div.content {
+	border: none;
+	width: 100%;
+}
+#page-mod-quiz-edit .addpage {
+	float: left;
+}
+#page-mod-quiz-edit div.question div.content div.points {
+	margin-right: 10px;
+}
+
+#page-mod-quiz-edit h2.main {
+	display: block;
+}
+#page-mod-quiz-edit div.quizcontents {
+	width: 100%;
+}
+#page-mod-quiz-edit div.question div.content div.questioncontrols {
+	width: auto;
+	position: relative;
+}
+
+#page-mod-quiz-report .quizattemptcounts {
+	margin-left:0;
+}
+#page-mod-quiz-report table#attempts {
+	width: 100%;
+	margin: 1em auto;
+}
+*/
+/*Editing Quiz*/
+#categoryquestions .header a {
+	color: #fff;
+}
+#page-mod-quiz-edit div.quizcontents {
+	width: 75%;
+}
+.questionbankwindow.block {
+	width: 25%;
+}
+#page-mod-quiz-edit .questionbankwindow div.header {
+	margin: 0;
+}
+#page-mod-quiz-edit div.quizpage .pagecontent {
+	width: 97%;
+}
+#page-mod-quiz-edit .addpage {
+	margin: 0;
+	float: left;
+}
+#page-mod-quiz-edit div.editq div.question div.content {
+	width: 93%;
+	padding-bottom: 1em;
+}
+#page-mod-quiz-edit div.quizpage .pagecontent {
+	background: #efefef;
+}
+#page-mod-quiz-edit div.question div.content div.points input.pointssubmitbutton {
+	padding: 1px 8px;
+}
+/*Order and paging*/
+.addnewpagesafterselected {
+	float: left !important;
+}
+#page-mod-quiz-edit .reorder div.question div.content {
+	
+	width: 94%;
+}
+#page-mod-quiz-edit .reorder .questioncontentcontainer,
+#page-mod-quiz-edit div.question div.content div.questioncontrols,
+#page-mod-quiz-edit div.question div.content div.qorder {
+	background: #fff;
+}
+
+
+/*************************************************
+REPORTS
+*************************************************/
+
+/*Grader Report*/
+#page-grade-report-grader-index #user-grades {
+	font-size: 0.8em;
+}
+#page-grade-report-grader-index .userpicture {
+	margin-right: 10px;
+	height: 35px;
+	width: 35px;
+}
+#page-grade-report-grader-index #region-main {
+	overflow: auto;
+}
+table.flexible th, .generaltable th, table.flexible td, .generaltable td {
+	vertical-align: middle;
+}
+
+#page-grade-report-grader-index #user-grades td {
+	padding: 0;
+	height: 51px;
+}
+#page-grade-report-grader-index #user-grades th {
+	padding-right: 35px;
+}
+
+.path-grade-report-grader .heading_name_row th {
+	white-space: nowrap;
+}
+.left_scroller {
+	clear: none;
+	float: left;
+	font-size: 0.8em;
+}
+.right_scroller {
+	overflow-x: scroll;
+	width: auto;
+}
+.path-grade-report-grader div.left_scroller tr, .path-grade-report-grader div.right_scroller tr, .path-grade-report-grader div.left_scroller td, .path-grade-report-grader div.right_scroller td, .path-grade-report-grader div.left_scroller th, .path-grade-report-grader div.right_scroller th {
+	height: 3em;
+}
+
+
+/*User Report*/
+#page-grade-report-user-index #graded_users_selector {
+	float: left;
+	text-align: left;
+	padding-bottom: 15px;
+}
+#page-grade-report-user-index #graded_users_selector label {
+	display: inline;
+	padding-right: 10px;
+}
+#page-grade-report-user-index .user-grade td,
+#page-grade-report-user-index .user-grade th,
+#page-grade-report-user-index .user-grade tr,
+#page-grade-report-user-index .user-grade thead {
+	border: 1px solid #ddd;
+}
+
+
+
+/*************************************************
+ENROLL USERS
+*************************************************/
+#page-enrol-users .enrol_user_buttons {
+	float: left;
+	padding: 10px 0 20px 0;
+}
+
+/*************************************************
+THEME PROFILE
+*************************************************/
+#page-admin-theme-index .generalbox {
+    border: 0 none;
+    background: none;
+}
+
+.theme_screenshot {
+    float: left;
+    width: 300px;
+}
+
+.theme_screenshot img {
+    border: 1px solid #ccc;
+}
+
+.theme_screenshot h3 {
+    margin: 1em 0 0;
+}
+
+.theme_screenshot p {
+    font-size: 0.9em;
+    margin: 0 0 1em;
+}
+
+.theme_description {
+    margin-left: 350px;
+    margin-top: 32px;
+}
+
+.theme_description h2 {
+    padding-top: 0.5em;
+}
+
+#page-admin-setting-themesettingandrotheme input, 
+#page-admin-setting-themesettingandrotheme textarea, 
+#page-admin-setting-themesettingandrotheme .uneditable-input {
+	width: auto;
+}
+
+
+/*************************************************
+USER PROFILE
+*************************************************/
+
+#page-user-profile .profilepicture {
+	float: left;
+	margin-right: 20px;
+}
+#page-user-profile .descriptionbox {
+	float: left;
+	width: 85%;
+}
+#page-user-profile .descriptionbox dt {
+	width: auto;
+}
+#page-user-profile .userprofile dl.list dd {
+	display: block;
+	clear: both;
+	margin: 0 20px 8px 0;
+}
+#page-user-profile .userprofile .description,
+#page-user-profile .list {
+	margin: 0;
+}
+
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]

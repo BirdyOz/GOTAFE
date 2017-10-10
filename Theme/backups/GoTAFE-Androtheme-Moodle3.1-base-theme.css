@@ -1,0 +1,58 @@
+/*GENERAL*/
+.container-fluid {max-width: 97%;}
+body.pagelayout-popup {overflow: auto !important; line-height: 1em;}
+#page {padding: 15px;}
+a.logo {max-width: 450px; min-height: 115px; background-position: 20px center;}
+
+/*LHS BAR*/
+#block-region-side-pre .block, #block-region-side-pre .block a {color: #333333;}
+
+/*MIDDLE CONTENT*/
+#region-main .block, #region-main .block .content {background: transparent;}
+
+/*RHS BAR*/
+#block-region-side-post .block, #block-region-side-post .block a {color: #333333;}
+
+#block-region-side-post .block .header {background: #00529B;}
+
+#block-region-side-post .block .content {background: #ffffff;}
+
+.block .header {background: transparent; background-color: #00529B;}
+
+hr {background: #333333;}
+
+button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
+color: #333333;
+background-color: #dddddd;
+background-image: -moz-linear-gradient(top, #dddddd, #eeeeee);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dddddd), to(#eeeeee));
+background-image: -webkit-linear-gradient(top, #dddddd, #eeeeee);
+background-image: -o-linear-gradient(top, #dddddd, #eeeeee);
+background-image: linear-gradient(to top, #dddddd, #eeeeee);
+border-color: #dddddd
+}
+
+button:hover, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+color: #333333;
+background-color: #dddddd;
+border-color: #dddddd;
+}
+
+/*BREADCRUMB*/
+.breadcrumb-nav .breadcrumb {color: #333333;}
+.breadcrumb-nav .breadcrumb a {color: #333333;}
+.breadcrumb>li>.divider {color: #333333;}
+#page-navbar a.dimmed, #page-navbar a.dimmed:link, #page-navbar a.dimmed:visited, #page-navbar a.dimmed_text, #page-navbar a.dimmed_text:link, #page-navbar a.dimmed_text:visited, #page-navbar .dimmed_text, #page-navbar .dimmed_text a, #page-navbar .dimmed_text a:link, #page-navbar .dimmed_text a {
+    color: #333333;
+    opacity: 1;
+}
+
+/*FOOTER*/
+#page-footer {background: #dddddd; color: #333333;}
+#page-footer a {color: #0300BE;}
+
+/*NAVBAR*/
+.logininfo {color: #333333;}
+.logininfo > a {color: #333333;}
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {background: #93AFCC;}
+.navbar .brand {display: none;}

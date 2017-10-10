@@ -1,0 +1,84 @@
+.tiles {
+	margin-top: 20px;
+	width: 100%;
+	display: table;
+	background: #eee;
+	padding-bottom: 15px !important;
+}
+.tileoutlinepage {
+        margin: 10px;
+        padding: 0 0 15px;
+}
+#tileoutlinetiles {
+
+}
+.tileoutlinearea {
+        border: none !important;
+        /*background: transparent url([[pix:theme|tilebg]]) left no-repeat;*/
+        background: [[setting:pagenavbgcolor]];
+        margin: 15px 10px 10px 10px !important;
+        
+}
+.tileoutlinearea .headingblock {
+        background: none !important;
+        font-weight: normal;
+	font-size: 1em;
+	text-transform: uppercase;
+	line-height: 20px;
+	padding: 10px;
+}
+
+.tile a {
+        background-color: [[setting:primarydarkcolor]] !important;
+	-webkit-box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.3);
+	box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.3);
+        border: 1px solid [[setting:primarycolor]] !important;
+        padding: 0 !important;
+
+}
+.tile a:hover {
+        background-color: [[setting:primaryaccent]] !important;
+	-webkit-box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.45);
+	-moz-box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.45);
+	box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.45);
+
+}
+.tiletopicnav {
+
+}
+.tiletopicnav ul li a {
+
+        background-color: [[setting:primarydarkcolor]] !important; /*-webkit-border-bottom-right-radius: 0px !important;
+        -webkit-border-bottom-left-radius: 0px !important;
+        -moz-border-radius-bottomright: 0px !important;
+        -moz-border-radius-bottomleft: 0px !important;
+        border-bottom-right-radius: 0px !important;
+border-bottom-left-radius: 0px !important;*/
+}
+.tiletopicnav ul li a:hover, .tiletopicnav li a.current {
+        background-color: [[setting:primaryaccent]] !important;
+}
+.tilecontentarea {
+
+}
+.tiletopic {
+        color: [[setting:primaryaccent]] !important;
+	-webkit-border-bottom-right-radius: 5px !important;
+	-webkit-border-bottom-left-radius: 5px !important;
+	-moz-border-radius-bottomright: 5px !important;
+	-moz-border-radius-bottomleft: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+	background: #fff;
+	padding: 2px 10px;
+	text-align: center !important;
+}
+.tiletitle {
+        padding: 15px;
+        
+}
+
+#page-course-view-tiles #region-main {
+        padding: 0;
+}

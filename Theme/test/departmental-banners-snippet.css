@@ -1,0 +1,106 @@
+/*Departmental Banners*/
+
+/* Agriculture */
+.test-banner .breadcrumbs-agriculture .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/agriculture.png') no-repeat left;
+}
+
+/* Animal-sciences */
+.test-banner .breadcrumbs-animal-sciences .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/animal-sciences.png') no-repeat left;
+}
+
+/* Art-and-design */
+.test-banner .breadcrumbs-design .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/art-and-design.png') no-repeat left;
+}
+
+/* Automotive */
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/automotive.png') no-repeat left;
+}*/
+
+/* Beauty */
+.test-banner .breadcrumbs-beauty-2017 .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/beauty.png') no-repeat left;
+}
+
+/* Building */
+.test-banner .breadcrumbs-building-and-construction .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/building.png') no-repeat left;
+}
+
+/* Business-and-it */
+.test-banner .breadcrumbs-business-and-it .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/business-and-it.png') no-repeat left;
+}
+
+/* Child-services */
+.test-banner .breadcrumbs-child-services .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/child-services.png') no-repeat left;
+}
+
+/* Community-services */
+.test-banner .breadcrumbs-community-services-2017 .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/community-services.png') no-repeat left;
+}
+
+/* Education-and-training */
+.test-banner .breadcrumbs-education-and-teaching .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/education-and-training.png') no-repeat left;
+}
+
+/* Electrical */
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/electrical.png') no-repeat left;
+}*/
+
+/* Engineering */
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/engineering.png') no-repeat left;
+}*/
+
+/* Events */
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/events.png') no-repeat left;
+}*/
+
+/* Hair-dressing */
+.test-banner .breadcrumbs-hair-dressing .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/hair-dressing.png') no-repeat left;
+}
+
+/* Horticulture-and-clm */
+.test-banner .breadcrumbs-horticulture-2017 .page-context-header, .test-banner .breadcrumbs-conservation-and-land-management .page-context-header  {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/horticulture-and-clm.png') no-repeat left;
+}
+
+/* Hospitality */
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/hospitality.png') no-repeat left;
+}*/
+
+/* Nursing */
+.test-banner .breadcrumbs-nursing-2017 .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/nursing.png') no-repeat left;
+}
+
+/* Plumbing */
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/plumbing.png') no-repeat left;
+}*/
+
+/* Sport-and-rec */
+.test-banner .breadcrumbs-sport-and-recreation-2017 .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/sport-and-rec.png') no-repeat left;
+}
+
+/* Tourism */
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/tourism.png') no-repeat left;
+}*/
+
+/* Viticulture-and-winemaking */
+.test-banner .breadcrumbs-viticulture-and-winemaking .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/viticulture-and-winemaking.png') no-repeat left;
+}

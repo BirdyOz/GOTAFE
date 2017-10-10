@@ -1,0 +1,645 @@
+/*
+* @Author: Greg Bird (@BirdyOz, greg.bird.oz@gmail.com)
+* @Date:   2017-03-29 11:07:00
+* @Last Modified by:   BirdyOz
+* @Last Modified time: 2017-03-29 11:07:00
+*/
+
+
+/*
+*
+* Modified Clean theme for Moodle 3.1, to bring visual design elements from
+* new GOTAFE public website: http://www.gotafe.vic.edu.au/
+**/
+
+
+/**
+ * GENERAL
+ */
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
+.container-fluid {
+    margin-left: 15px;
+}
+
+
+/* Dimmed items */
+
+span.arrow,
+a.dimmed,
+a.dimmed:link,
+a.dimmed:visited,
+a.dimmed_text,
+a.dimmed_text:link,
+a.dimmed_text:visited,
+.dimmed_text,
+.dimmed_text a,
+.dimmed_text a:link,
+.dimmed_text a:visited,
+.usersuspended,
+.usersuspended a,
+.usersuspended a:link,
+.usersuspended a:visited,
+.dimmed_category,
+.dimmed_category a {
+    color: #666;
+    font-style: italic;
+}
+
+
+/**
+ * BANNER
+ */
+
+.page-context-header {
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    margin: 3em 0 1em 0;
+    font-size: 1em;
+    padding-left: 236px;
+    line-height: 1em;
+    width: auto;
+    min-height: 100px;
+}
+
+.page-context-header h1 {
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.8em;
+    margin: 0 0 0.5em 0;
+    line-height: 1em;
+}
+
+
+/**
+ * Hide header from login scree
+ */
+
+body.notloggedin div.logo {
+    background: none !important;
+}
+
+
+/**
+ * Alternative banner layout for different widths
+ */
+
+
+/*When the navbar collapses*/
+
+@media (max-width: 978px) {
+    .page-context-header {
+        margin: -1.5em 0 0 0;
+        min-width: 70%
+    }
+}
+
+
+/*When the navbar collapses*/
+
+@media (max-width: 780px) {
+    .page-context-header {
+        margin: -8em 0 0 0;
+        font-size: 0.8em;
+        padding: 160px 0 0 0;
+        width: 100%;
+    }
+}
+
+
+/**
+ * DYNAMIC BANNER LOGOS
+ */
+
+.Main .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/Courses-100px.png') no-repeat left;
+}
+
+.Courses .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/Courses-100px.png') no-repeat left;
+}
+
+.NCEE .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/NCEE-100px.png') no-repeat left;
+}
+
+.NCDE .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/NCDE-100px.png') no-repeat left;
+}
+
+.breadcrumbs-gotafe-learning-and-development .page-context-header,
+.HR .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/HR-100px.png') no-repeat left;
+}
+
+
+/*Departmental Banners*/
+
+
+/* Agriculture */
+
+.test-banner .breadcrumbs-agriculture .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/agriculture.png') no-repeat left;
+}
+
+
+/* Animal-sciences */
+
+.test-banner .breadcrumbs-animal-sciences .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/animal-sciences.png') no-repeat left;
+}
+
+
+/* Art-and-design */
+
+.test-banner .breadcrumbs-design .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/art-and-design.png') no-repeat left;
+}
+
+
+/* Automotive */
+
+
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/automotive.png') no-repeat left;
+}*/
+
+
+/* Beauty */
+
+.test-banner .breadcrumbs-beauty-2017 .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/beauty.png') no-repeat left;
+}
+
+
+/* Building */
+
+.test-banner .breadcrumbs-building-and-construction .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/building.png') no-repeat left;
+}
+
+
+/* Business-and-it */
+
+.test-banner .breadcrumbs-business-and-it .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/business-and-it.png') no-repeat left;
+}
+
+
+/* Child-services */
+
+.test-banner .breadcrumbs-child-services .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/child-services.png') no-repeat left;
+}
+
+
+/* Community-services */
+
+.test-banner .breadcrumbs-community-services-2017 .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/community-services.png') no-repeat left;
+}
+
+
+/* Education-and-training */
+
+.test-banner .breadcrumbs-education-and-teaching .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/education-and-training.png') no-repeat left;
+}
+
+
+/* Electrical */
+
+
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/electrical.png') no-repeat left;
+}*/
+
+
+/* Engineering */
+
+
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/engineering.png') no-repeat left;
+}*/
+
+
+/* Events */
+
+
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/events.png') no-repeat left;
+}*/
+
+
+/* Hair-dressing */
+
+.test-banner .breadcrumbs-hair-dressing .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/hair-dressing.png') no-repeat left;
+}
+
+
+/* Horticulture-and-clm */
+
+.test-banner .breadcrumbs-horticulture-2017 .page-context-header,
+.test-banner .breadcrumbs-conservation-and-land-management .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/horticulture-and-clm.png') no-repeat left;
+}
+
+
+/* Hospitality */
+
+
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/hospitality.png') no-repeat left;
+}*/
+
+
+/* Nursing */
+
+.test-banner .breadcrumbs-nursing-2017 .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/nursing.png') no-repeat left;
+}
+
+
+/* Plumbing */
+
+
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/plumbing.png') no-repeat left;
+}*/
+
+
+/* Sport-and-rec */
+
+.test-banner .breadcrumbs-sport-and-recreation-2017 .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/sport-and-rec.png') no-repeat left;
+}
+
+
+/* Tourism */
+
+
+/*.XXXX .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/tourism.png') no-repeat left;
+}*/
+
+
+/* Viticulture-and-winemaking */
+
+.test-banner .breadcrumbs-viticulture-and-winemaking .page-context-header {
+    background: url('https://gotafe.trainingvc.com.au/file.php/1/theme/banners/viticulture-and-winemaking.png') no-repeat left;
+}
+
+
+/**
+ * DYNAMIC BANNER ELEMENTS
+ */
+
+#codes {
+    font-weight: bold;
+    font-size: 1.0em;
+    line-height: 1em;
+}
+
+#codes span,
+#audience span {
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    /*font-style: italic;*/
+    color: #144563;
+    font-weight: bold;
+}
+
+#year {
+    border: 3px solid #ccc;
+    border-radius: 8px;
+}
+
+#year * {
+    padding: 0.3em 0.7em;
+}
+
+#year .panel-body {
+    font-size: 1em;
+}
+
+#year .panel-heading {
+    font-size: 0.8em;
+}
+
+#year.panel-danger {
+    border-color: #f2dede !important;
+}
+
+
+/**
+ * NAVIGATION
+ */
+
+
+/*Top Nav*/
+
+.navbar,
+.navbar-inverse,
+.navbar-inner,
+.usermenu {
+    background-color: #021A28 !important;
+    background-image: none !important;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.navbar .nav>li>a {
+    text-shadow: none !important;
+    font-weight: bold;
+}
+
+nav.navbar-inner a,
+.usertext {
+    color: white !important;
+    background-image: none !important;
+}
+
+.navbar .nav li.dropdown.open>.dropdown-toggle,
+.navbar .nav li.dropdown.active>.dropdown-toggle,
+.navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    background-color: black
+}
+
+nav.navbar-inner a:hover,
+.usertext:hover {
+    color: white !important;
+    background-image: none !important;
+    text-decoration: underline !important;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    color: #000 !important;
+}
+
+
+/*Reset dropdown menu */
+
+.actionmenu>li>a,
+.actionmenu>li>a,
+.dropdown-menu>li>a,
+.dropdown-menu>li>a,
+.dropdown-submenu>a,
+.dropdown-submenu>a,
+.menu-action-text {
+    color: black !important;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-submenu:hover>a,
+.dropdown-submenu:focus>a .menu-action-text:hover {
+    color: white !important;
+    background-color: #00699e !important;
+    background-image: none;
+}
+
+
+/*Reset user menu*/
+
+a.menu-action:hover .menu-action-text {
+    color: white !important;
+}
+
+
+/**
+ * Breadcrumbs
+ */
+
+.breadcrumb {
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.breadcrumb>li {
+    text-shadow: none;
+}
+
+.breadcrumb a {
+    color: #1f3345;
+    font-weight: 800;
+}
+
+
+/**
+ * BLOCKS
+ */
+
+.block,
+.dockedtitle {
+    background-color: white !important;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+}
+
+.block .header {
+    background-color: #144563;
+    margin: 0 6px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.block .header h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    text-shadow: none;
+    text-transform: none;
+}
+
+
+/**
+ * DOCKED ITEMS
+ */
+
+#dock .dockedtitle {
+    background-image: none !important;
+    padding: 0 0 0 6px;
+    border-radius: 6px;
+    background-color: #144563 !important;
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+    text-shadow: none;
+    text-transform: none;
+}
+
+#dock .css3transform {
+    font-family: Raleway, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+
+/**
+ * BUTTONS
+ */
+
+#page-mod-scorm-player .breadcrumb-button>a[title="Exit activity"],
+button,
+input.form-submit,
+input[type="button"],
+[class*="button"] input[type="submit"],
+input[type="reset"],
+.btn,
+input.form-submit,
+input#id_submitbutton,
+input#id_submitbutton2,
+.path-admin .buttons input[type="submit"],
+td.submit input {
+    color: rgb(20, 69, 99) !important;
+    background-color: white !important;
+    background-image: none !important;
+    border: 2px solid rgb(20, 69, 99);
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+#page-mod-scorm-player .breadcrumb-button>a[title="Exit activity"]:hover,
+#page-mod-scorm-player .breadcrumb-button>a[title="Exit activity"]:focus,
+button:hover,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn:hover,
+.btn:focus,
+input.form-submit:hover,
+input[type="button"]:hover,
+[class*="button"] input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:focus,
+input.form-submit:focus,
+input#id_submitbutton:hover,
+input#id_submitbutton2:hover,
+input#id_submitbutton:focus,
+input#id_submitbutton2:focus,
+input[type="button"]:focus,
+[class*="button"] input[type="submit"]:focus,
+input[type="reset"]:focus {
+    color: white !important;
+    background-color: rgb(20, 69, 99) !important;
+    border-color: rgb(20, 69, 99) !important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    text-shadow: none;
+}
+
+
+/* PAGE: COURSE > ONE TOPIC FORMAT */
+
+div.onetopic ul.nav-tabs>li a {
+    color: rgb(20, 69, 99) !important;
+    background-color: white;
+    background-image: none !important;
+    border: 2px solid rgb(20, 69, 99);
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin: 2px;
+    text-shadow: none;
+}
+
+
+/*Hover + active*/
+
+div.onetopic ul.nav-tabs>li.active>a,
+div.onetopic ul.nav-tabs>li>a:hover,
+div.onetopic ul.nav-tabs>li>a:focus {
+    color: white !important;
+    background-color: rgb(20, 69, 99) !important;
+    border: 2px solid #099!important -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    text-shadow: none;
+}
+
+
+/**
+ * MAIN CONTENT
+ */
+
+
+/**
+ * FOOTER
+ */
+
+#page-footer {
+    text-align: left !important;
+    padding: 2em;
+    color: #fff;
+    background-color: #1f3345
+}
+
+#page-footer .text-center {
+    background: url('http://www.gotafe.vic.edu.au/wp-content/uploads/2016/10/State-Gov-Vic-Logo2.png') no-repeat top right;
+    background-repeat: none;
+    text-align: left !important;
+    margin: 2em 2em 2em 4em;
+}
+
+#page-footer a {
+    color: #fff;
+}
+
+
+/**
+ * DASHBOARD
+ */
+
+.block_course_overview .content h2.title {
+    font-size: 1.2em !important;
+    line-height: 1.4em !important;
+}
+
+h3.coursename,
+h3.categoryname,
+h4.categoryname {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    font-weight: 200;
+}
+
+
+/**
+ * FIXES TO DISPLAY ISSUES
+ */
+
+
+/* Resize images to fit their container.  To prevent images flowing off the screen, particularly on mobile devices*/
+
+div.no-overflow {
+    overflow: inherit;
+}
+
+div.no-overflow img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+
+/*Specific overrides*/
+
+.block_course_contents .section-number {
+    background-color: #333
+}
+
+#region-main a.rspkr_dr_link {
+    padding-right: 1.2em;
+    padding-left: 0.2em;
+}
