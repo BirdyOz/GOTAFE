@@ -1,0 +1,6351 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "D68AF7E8-F078-48AC-9000-7584CEBE3181"
+		}
+	],
+"creatorBuild": "25900",
+"files": {
+	"\/.gitattributes": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
+	"\/Admin documents\/ACM10 competency framework 2.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/ACM10 competency framework 2.csv",
+		"oF": 0
+		},
+	"\/Admin documents\/ACM10 competency framework.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/ACM10 competency framework.csv",
+		"oF": 0
+		},
+	"\/Admin documents\/Bulk renaming of 2017 Moodle shells.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/Bulk renaming of 2017 Moodle shells.xlsx",
+		"oF": 0
+		},
+	"\/Admin documents\/GoTAFE - Moodle administration 01.09.16.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/GoTAFE - Moodle administration 01.09.16.docx",
+		"oF": 0
+		},
+	"\/Admin documents\/GoTAFE - Moodle administration 03.08.16.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/GoTAFE - Moodle administration 03.08.16.docx",
+		"oF": 0
+		},
+	"\/Admin documents\/GoTAFE - Moodle administration 04.08.16.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/GoTAFE - Moodle administration 04.08.16.docx",
+		"oF": 0
+		},
+	"\/Admin documents\/GoTAFE - Moodle administration 31.08.16.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/GoTAFE - Moodle administration 31.08.16.docx",
+		"oF": 0
+		},
+	"\/Admin documents\/goTAFE - Review of Moodle compliance template.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/goTAFE - Review of Moodle compliance template.docx",
+		"oF": 0
+		},
+	"\/Admin documents\/goTAFE - Review of Moodle compliance template.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/goTAFE - Review of Moodle compliance template.pdf",
+		"oF": 0
+		},
+	"\/Admin documents\/GOTAFE - Roles and enrolments - by context level 01.09.16.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/GOTAFE - Roles and enrolments - by context level 01.09.16.xlsx",
+		"oF": 0
+		},
+	"\/Admin documents\/GoTAFE - Summary of roles and permissions.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/GoTAFE - Summary of roles and permissions.xlsx",
+		"oF": 0
+		},
+	"\/Admin documents\/GOTAFE competency framework - All units.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/GOTAFE competency framework - All units.csv",
+		"oF": 0
+		},
+	"\/Admin documents\/goTAFE Moodle theme on mobile and desktop browsers-old.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/goTAFE Moodle theme on mobile and desktop browsers-old.docx",
+		"oF": 0
+		},
+	"\/Admin documents\/goTAFE Moodle theme on mobile and desktop browsers.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/goTAFE Moodle theme on mobile and desktop browsers.docx",
+		"oF": 0
+		},
+	"\/Admin documents\/goTAFE Moodle theme on mobile and desktop browsers.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/goTAFE Moodle theme on mobile and desktop browsers.pdf",
+		"oF": 0
+		},
+	"\/Admin documents\/GoTAFE-Role by context level - summary.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/GoTAFE-Role by context level - summary.pdf",
+		"oF": 0
+		},
+	"\/Admin documents\/Migrating to MoodleRooms - Impact statement 04.10.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/Migrating to MoodleRooms - Impact statement 04.10.17.xlsx",
+		"oF": 0
+		},
+	"\/Admin documents\/Moodle 3.1 test schedule + issues register as at 29.09.16.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/Moodle 3.1 test schedule + issues register as at 29.09.16.docx",
+		"oF": 0
+		},
+	"\/Admin documents\/Moodle 3.1 test schedule + issues register.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/Moodle 3.1 test schedule + issues register.docx",
+		"oF": 0
+		},
+	"\/Admin documents\/Risk assessmnet - Moving to Moodle Rooms.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/Risk assessmnet - Moving to Moodle Rooms.xlsx",
+		"oF": 0
+		},
+	"\/Admin documents\/Roles and permissions - with comments.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/Roles and permissions - with comments.pdf",
+		"oF": 0
+		},
+	"\/Admin documents\/Roles and permissions.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/Roles and permissions.pdf",
+		"oF": 0
+		},
+	"\/Admin documents\/~$Risk assessmnet - Moving to Moodle Rooms.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/~$Risk assessmnet - Moving to Moodle Rooms.xlsx",
+		"oF": 0
+		},
+	"\/Admin documents\/~$TAFE - Moodle administration 01.09.16.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/~$TAFE - Moodle administration 01.09.16.docx",
+		"oF": 0
+		},
+	"\/Admin documents\/~$TAFE Moodle theme on mobile and desktop browsers.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Admin documents\/~$TAFE Moodle theme on mobile and desktop browsers.docx",
+		"oF": 0
+		},
+	"\/Competency frameworks\/ACM10 competency framework - BParry.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Competency frameworks\/ACM10 competency framework - BParry.csv",
+		"oF": 0
+		},
+	"\/Competency frameworks\/GOTAFE - all 2017 units - for Competency Frameworks.xls": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Competency frameworks\/GOTAFE - all 2017 units - for Competency Frameworks.xls",
+		"oF": 0
+		},
+	"\/Competency frameworks\/GOTAFE competency framework - All units.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Competency frameworks\/GOTAFE competency framework - All units.csv",
+		"oF": 0
+		},
+	"\/Compliance template related\/calendar.vcs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Compliance template related\/calendar.vcs",
+		"oF": 0
+		},
+	"\/Compliance template related\/Creating Assessments using Paper based Assessment Tool with online grading and feedback - GB Comments 31.08.16.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Compliance template related\/Creating Assessments using Paper based Assessment Tool with online grading and feedback - GB Comments 31.08.16.docx",
+		"oF": 0
+		},
+	"\/Compliance template related\/Creating Assessments using Paper based Assessment Tool with online grading and feedback 1 (2).docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Compliance template related\/Creating Assessments using Paper based Assessment Tool with online grading and feedback 1 (2).docx",
+		"oF": 0
+		},
+	"\/Compliance template related\/Developer Checklist - GB Comments 31.08.16.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Compliance template related\/Developer Checklist - GB Comments 31.08.16.docx",
+		"oF": 0
+		},
+	"\/Compliance template related\/Developer Checklist.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Compliance template related\/Developer Checklist.docx",
+		"oF": 0
+		},
+	"\/Compliance template related\/Moodle template developer guidelines - GB Comments 31.08.16.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Compliance template related\/Moodle template developer guidelines - GB Comments 31.08.16.docx",
+		"oF": 0
+		},
+	"\/Compliance template related\/Moodle template developer guidelines.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Compliance template related\/Moodle template developer guidelines.docx",
+		"oF": 0
+		},
+	"\/Course requests & creations\/2017 Course Home Shell enrolments - 01.02.17.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/2017 Course Home Shell enrolments - 01.02.17.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/2017 Course Home Shell renames - 01.02.17.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/2017 Course Home Shell renames - 01.02.17.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/2017 Course Home Shell requests - 01.02.17.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/2017 Course Home Shell requests - 01.02.17.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/GBIRD- Moodle Shell Requests Processed .xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/GBIRD- Moodle Shell Requests Processed .xlsx",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Course Copies - user enrolment 02.02.17 - part 1 of 2.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Course Copies - user enrolment 02.02.17 - part 1 of 2.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Course Copies - user enrolment 02.02.17 - part 1 of 2.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Course Copies - user enrolment 02.02.17 - part 1 of 2.xlsx",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Course Copies - user enrolment 02.02.17 - part 2 of 2.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Course Copies - user enrolment 02.02.17 - part 2 of 2.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Course Copies 02.02.17 - part 1 of 2.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Course Copies 02.02.17 - part 1 of 2.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Course Copies 02.02.17 - part 2 of 2.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Course Copies 02.02.17 - part 2 of 2.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Course Copies 02.02.17.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Course Copies 02.02.17.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Course Copies 08.02.17.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Course Copies 08.02.17.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Course Copies 09.02.17 - user enrolment.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Course Copies 09.02.17 - user enrolment.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Course Copies 09.02.17.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Course Copies 09.02.17.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Course Requests & creations 01.02.17.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Course Requests & creations 01.02.17.csv",
+		"oF": 0
+		},
+	"\/Course requests & creations\/Moodle Shell Request-214-records-20170201_0004-comma_separated.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Course requests & creations\/Moodle Shell Request-214-records-20170201_0004-comma_separated.csv",
+		"oF": 0
+		},
+	"\/CSV uploads\/Hide 2015 delivery courses - 06.04.17.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CSV uploads\/Hide 2015 delivery courses - 06.04.17.csv",
+		"oF": 0
+		},
+	"\/CSV uploads\/Hide 2015 delivery courses - 06.04.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CSV uploads\/Hide 2015 delivery courses - 06.04.17.xlsx",
+		"oF": 0
+		},
+	"\/CSV uploads\/Reaname  course shortnames 06.04.17 - single course.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CSV uploads\/Reaname  course shortnames 06.04.17 - single course.csv",
+		"oF": 0
+		},
+	"\/CSV uploads\/Reaname  course shortnames 06.04.17.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CSV uploads\/Reaname  course shortnames 06.04.17.csv",
+		"oF": 0
+		},
+	"\/CSV uploads\/Reaname  course shortnames 06.04.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CSV uploads\/Reaname  course shortnames 06.04.17.xlsx",
+		"oF": 0
+		},
+	"\/CSV uploads\/Reaname short names.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CSV uploads\/Reaname short names.xlsx",
+		"oF": 0
+		},
+	"\/documents\/Assessment 1 (ABC123) - Practical report template.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/documents\/Assessment 1 (ABC123) - Practical report template.docx",
+		"oF": 0
+		},
+	"\/documents\/FLA-43 Assessment Tool.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/documents\/FLA-43 Assessment Tool.doc",
+		"oF": 0
+		},
+	"\/documents\/FLA-65 Assessment task feedback.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/documents\/FLA-65 Assessment task feedback.docx",
+		"oF": 0
+		},
+	"\/documents\/FLA-75 - ABC123 – Assessment 1 – Practical Report Template.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/documents\/FLA-75 - ABC123 – Assessment 1 – Practical Report Template.doc",
+		"oF": 0
+		},
+	"\/documents\/FLA-75 Handout template.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/documents\/FLA-75 Handout template.doc",
+		"oF": 0
+		},
+	"\/GIFT files\/CPCPCM2043A - Chapter 1 Worksheets.GIFT.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/GIFT files\/CPCPCM2043A - Chapter 1 Worksheets.GIFT.txt",
+		"oF": 0
+		},
+	"\/Google Analytics\/GoTAFE Moodle - Browser - 06.12.16 to 07.12.16.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Google Analytics\/GoTAFE Moodle - Browser - 06.12.16 to 07.12.16.pdf",
+		"oF": 0
+		},
+	"\/Google Analytics\/GoTAFE Moodle - Devices - 06.12.16 to 07.12.16.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Google Analytics\/GoTAFE Moodle - Devices - 06.12.16 to 07.12.16.pdf",
+		"oF": 0
+		},
+	"\/Google Analytics\/GoTAFE Moodle - Location - 06.12.16 to 07.12.16.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Google Analytics\/GoTAFE Moodle - Location - 06.12.16 to 07.12.16.pdf",
+		"oF": 0
+		},
+	"\/Google Analytics\/GoTAFE Moodle - Network - 06.12.16 to 07.12.16.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Google Analytics\/GoTAFE Moodle - Network - 06.12.16 to 07.12.16.pdf",
+		"oF": 0
+		},
+	"\/Google Analytics\/GoTAFE Moodle - Platform - 06.12.16 to 07.12.16.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Google Analytics\/GoTAFE Moodle - Platform - 06.12.16 to 07.12.16.pdf",
+		"oF": 0
+		},
+	"\/Google Analytics\/GoTAFE Moodle - Sessions - 06.12.16 to 07.12.16.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Google Analytics\/GoTAFE Moodle - Sessions - 06.12.16 to 07.12.16.pdf",
+		"oF": 0
+		},
+	"\/Google Analytics\/GOTAFE-Google analytics.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Google Analytics\/GOTAFE-Google analytics.pdf",
+		"oF": 0
+		},
+	"\/GOTAFE-Clean--Production-backup 12.07.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/GOTAFE-Clean--Production-backup 12.07.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/GOTAFE-Clean--Production-backup 17.05.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/GOTAFE-Clean--Production-backup 17.05.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/GOTAFE\/.gitattributes": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/GOTAFE\/.gitattributes",
+		"oF": 0
+		},
+	"\/Jaspersoft\/2017 courses - student access summary 29.06.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/2017 courses - student access summary 29.06.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/2017 Moodle course summary as at 23.02.17.xls": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/2017 Moodle course summary as at 23.02.17.xls",
+		"oF": 0
+		},
+	"\/Jaspersoft\/2017 Moodle course summary as at 23.02.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/2017 Moodle course summary as at 23.02.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/2017 Moodle courses - for renaming 12.07.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/2017 Moodle courses - for renaming 12.07.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/2017 SSP results -  comparison of Greg and Christine resuts 30.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/2017 SSP results -  comparison of Greg and Christine resuts 30.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/2017 SSP results - as at 06.09.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/2017 SSP results - as at 06.09.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/2017 SSP results - comparison of Greg and Christine resuts 24.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/2017 SSP results - comparison of Greg and Christine resuts 24.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/2017 SSP results - comparison of Greg and Christine resuts 30.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/2017 SSP results - comparison of Greg and Christine resuts 30.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/2017 SSP results - comparison of Greg and Christine resuts up to 29.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/2017 SSP results - comparison of Greg and Christine resuts up to 29.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/All 2017 courses - 06.04.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/All 2017 courses - 06.04.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/All Moodle GOTAFE courses 22.03.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/All Moodle GOTAFE courses 22.03.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Anomalies in Module ID codes 09.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Anomalies in Module ID codes 09.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Audit of course dullnames 16.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Audit of course dullnames 16.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Audit of course fullnames 16.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Audit of course fullnames 16.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Comparison of Christine and Greg SSP data 03.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Comparison of Christine and Greg SSP data 03.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Comparison of Christine and Greg SSP data 09.08.17#2.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Comparison of Christine and Greg SSP data 09.08.17#2.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Comparison of Christine and Greg SSP data 09.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Comparison of Christine and Greg SSP data 09.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Comparison of SSP reports 13.10.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Comparison of SSP reports 13.10.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Comparison of SSP reports 1stJanTo11thOct2017_1.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Comparison of SSP reports 1stJanTo11thOct2017_1.csv",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Comparison of SSP reports 1stJanTo11thOct2017_1.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Comparison of SSP reports 1stJanTo11thOct2017_1.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Domain - Earliest SSP event - Duplicates removed.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Domain - Earliest SSP event - Duplicates removed.sql",
+		"oF": 0
+		},
+	"\/Jaspersoft\/earliest participation analysis 12.10.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/earliest participation analysis 12.10.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Earliest SSP event - collapsed duplicate SSP activities.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Earliest SSP event - collapsed duplicate SSP activities.sql",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Moodle courses - Summary of Moodle activities - incl SSP and FINAL - 08.06.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Moodle courses - Summary of Moodle activities - incl SSP and FINAL - 08.06.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Moodle courses - Summary of Moodle activities - incl SSP and FINAL - 28.06.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Moodle courses - Summary of Moodle activities - incl SSP and FINAL - 28.06.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Moodle courses - Summary of Moodle activities - incl SSP and FINAL.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Moodle courses - Summary of Moodle activities - incl SSP and FINAL.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Potential issues in SSP and FINAL activities 09.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Potential issues in SSP and FINAL activities 09.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Potential issues in SSP and FINAL activities 16.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Potential issues in SSP and FINAL activities 16.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Rename 2017 courses with updated audiences - 12.07.17.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Rename 2017 courses with updated audiences - 12.07.17.csv",
+		"oF": 0
+		},
+	"\/Jaspersoft\/Rename 2017 courses with updated audiences - 12.07.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/Rename 2017 courses with updated audiences - 12.07.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/SQL\/Active Courses in 2016.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/SQL\/Active Courses in 2016.sql",
+		"oF": 0
+		},
+	"\/Jaspersoft\/SQL\/User_course_completion_detail.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/SQL\/User_course_completion_detail.sql",
+		"oF": 0
+		},
+	"\/Jaspersoft\/XX2017 SSP results - comparison of Greg and Christine resuts up to 29.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/XX2017 SSP results - comparison of Greg and Christine resuts up to 29.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/~$2017 SSP results - comparison of Greg and Christine resuts 24.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/~$2017 SSP results - comparison of Greg and Christine resuts 24.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/~$2017 SSP results - comparison of Greg and Christine resuts 30.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/~$2017 SSP results - comparison of Greg and Christine resuts 30.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/~$Audit of course fullnames 16.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/~$Audit of course fullnames 16.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/~$Potential issues in SSP and FINAL activities 09.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/~$Potential issues in SSP and FINAL activities 09.08.17.xlsx",
+		"oF": 0
+		},
+	"\/Jaspersoft\/~$Potential issues in SSP and FINAL activities 16.08.17.xlsx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Jaspersoft\/~$Potential issues in SSP and FINAL activities 16.08.17.xlsx",
+		"oF": 0
+		},
+	"\/JS\/move-reaspeaker.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/JS\/move-reaspeaker-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/plugins\/gotafe_course.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course.zip",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/config.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/config.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/lang\/en\/theme_gotafe_course.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/lang\/en\/theme_gotafe_course.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/layout\/columns1.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/layout\/columns1.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/layout\/columns2.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/layout\/columns2.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/layout\/columns3.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/layout\/columns3.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/layout\/embedded.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/layout\/embedded.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/layout\/secure.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/layout\/secure.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/lib.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/lib.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/pix\/home_grey.png": {
+		"ft": 32768,
+		"iS": 1132,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/pix\/home_grey.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_course\/pix\/home_nav.png": {
+		"ft": 32768,
+		"iS": 1117,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/pix\/home_nav.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_course\/pix\/icon_course_list.png": {
+		"ft": 32768,
+		"iS": 218,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/pix\/icon_course_list.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_course\/pix\/logo.png": {
+		"ft": 32768,
+		"iS": 5167,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/pix\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_course\/pix\/screenshot.jpg": {
+		"ft": 16384,
+		"iS": 44992,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/pix\/screenshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/plugins\/gotafe_course\/pix\/Thumbs.db": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/pix\/Thumbs.db",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/pix\/tilebg.png": {
+		"ft": 32768,
+		"iS": 104112,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/pix\/tilebg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_course\/pix_core\/t\/switch_minus.png": {
+		"ft": 32768,
+		"iS": 14580,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/pix_core\/t\/switch_minus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_course\/pix_core\/t\/switch_plus.png": {
+		"ft": 32768,
+		"iS": 14598,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/pix_core\/t\/switch_plus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_course\/settings.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/settings.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_course\/style\/effects.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/style\/effects-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/gotafe_course\/style\/gotafe_course.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/style\/gotafe_course-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/gotafe_course\/style\/responsive.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/style\/responsive-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/gotafe_course\/style\/scorm.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/style\/scorm-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/gotafe_course\/style\/tiles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_course\/style\/tiles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/gotafe_course\/version.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_course\/version.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr.zip",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/config.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/config.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/lang\/en\/theme_gotafe_hr.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/lang\/en\/theme_gotafe_hr.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/layout\/columns1.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/layout\/columns1.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/layout\/columns2.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/layout\/columns2.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/layout\/columns3.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/layout\/columns3.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/layout\/embedded.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/layout\/embedded.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/layout\/secure.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/layout\/secure.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/lib.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/lib.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/pix\/home_grey.png": {
+		"ft": 32768,
+		"iS": 1132,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/pix\/home_grey.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_hr\/pix\/home_nav.png": {
+		"ft": 32768,
+		"iS": 1117,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/pix\/home_nav.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_hr\/pix\/icon_course_list.png": {
+		"ft": 32768,
+		"iS": 218,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/pix\/icon_course_list.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_hr\/pix\/logo.png": {
+		"ft": 32768,
+		"iS": 5167,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/pix\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_hr\/pix\/screenshot.jpg": {
+		"ft": 16384,
+		"iS": 44992,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/pix\/screenshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/plugins\/gotafe_hr\/pix\/Thumbs.db": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/pix\/Thumbs.db",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/pix\/tilebg.png": {
+		"ft": 32768,
+		"iS": 104112,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/pix\/tilebg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_hr\/pix_core\/t\/switch_minus.png": {
+		"ft": 32768,
+		"iS": 14580,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/pix_core\/t\/switch_minus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_hr\/pix_core\/t\/switch_plus.png": {
+		"ft": 32768,
+		"iS": 14598,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/pix_core\/t\/switch_plus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/gotafe_hr\/settings.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/settings.php",
+		"oF": 0
+		},
+	"\/plugins\/gotafe_hr\/style\/effects.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/style\/effects-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/gotafe_hr\/style\/gotafe_hr.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/style\/gotafe_hr-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/gotafe_hr\/style\/responsive.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/style\/responsive-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/gotafe_hr\/style\/scorm.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/style\/scorm-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/gotafe_hr\/style\/tiles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/gotafe_hr\/style\/tiles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/gotafe_hr\/version.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/plugins\/gotafe_hr\/version.php",
+		"oF": 0
+		},
+	"\/policies\/online service standards draft-GBIRD 21.06.17.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/policies\/online service standards draft-GBIRD 21.06.17.docx",
+		"oF": 0
+		},
+	"\/policies\/online service standards draft-GBIRD.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/policies\/online service standards draft-GBIRD.docx",
+		"oF": 0
+		},
+	"\/policies\/RFQ_eWorks_TVC2017 - Schedule 2 Draft - GBIRD comments.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/policies\/RFQ_eWorks_TVC2017 - Schedule 2 Draft - GBIRD comments.pdf",
+		"oF": 0
+		},
+	"\/policies\/Social Media Policy draft 2016 -GB Comments.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/policies\/Social Media Policy draft 2016 -GB Comments.doc",
+		"oF": 0
+		},
+	"\/policies\/Social Media Procedure Draft 2016 -GB Comments.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/policies\/Social Media Procedure Draft 2016 -GB Comments.doc",
+		"oF": 0
+		},
+	"\/RAW\/Dynamic banner login screen.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/RAW\/Dynamic banner login screen.sketch",
+		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/Sample documents\/Sample word document with images.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Sample documents\/Sample word document with images.docx",
+		"oF": 0
+		},
+	"\/screencasts\/Moodle %40 GoTAFE - A Student Guide to Navigation.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/screencasts\/Moodle %40 GoTAFE - A Student Guide to Navigation.mp4",
+		"oF": 0
+		},
+	"\/screencasts\/Moodle %40 GOTAFE - Creating assignments and editing marking guides.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/screencasts\/Moodle %40 GOTAFE - Creating assignments and editing marking guides.mp4",
+		"oF": 0
+		},
+	"\/screencasts\/Moodle %40 GOTAFE - Login and self enrolment into Course Home.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/screencasts\/Moodle %40 GOTAFE - Login and self enrolment into Course Home.mp4",
+		"oF": 0
+		},
+	"\/screencasts\/Moodle %40 GOTAFE - Navigating your Course Home %26 self enrolment into Units.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/screencasts\/Moodle %40 GOTAFE - Navigating your Course Home %26 self enrolment into Units.mp4",
+		"oF": 0
+		},
+	"\/screencasts\/Moodle Mobile %40 GOTAFE - tutorial.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/screencasts\/Moodle Mobile %40 GOTAFE - tutorial.mp4",
+		"oF": 0
+		},
+	"\/screencasts\/Readspeaker - Have your Moodle content read aloud to you.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/screencasts\/Readspeaker - Have your Moodle content read aloud to you.mp4",
+		"oF": 0
+		},
+	"\/screencasts\/Readspeaker TextAid.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/screencasts\/Readspeaker TextAid.mp4",
+		"oF": 0
+		},
+	"\/screencasts\/Student email%2C Office 365 and OneDrive %40 GOTAFE.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/screencasts\/Student email%2C Office 365 and OneDrive %40 GOTAFE.mp4",
+		"oF": 0
+		},
+	"\/SQL\/2017 courses - summary of student accesss (crosstab)": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/2017 courses - summary of student accesss (crosstab)",
+		"oF": 0
+		},
+	"\/SQL\/2017 courses - summary of student accesss (crosstab).SQL": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/2017 courses - summary of student accesss (crosstab).SQL",
+		"oF": 0
+		},
+	"\/SQL\/2017-SSP-results -earliest-participation.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/2017-SSP-results -earliest-participation.sql",
+		"oF": 0
+		},
+	"\/SQL\/collapsing_post.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/collapsing_post.sql",
+		"oF": 0
+		},
+	"\/SQL\/Course Module Participation Domain v1.1.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/Course Module Participation Domain v1.1.sql",
+		"oF": 0
+		},
+	"\/SQL\/Course Modules - SSP and FINAL.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/Course Modules - SSP and FINAL.sql",
+		"oF": 0
+		},
+	"\/SQL\/Domain - earliest SSP, collapsed duplicates - no in progress.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/Domain - earliest SSP, collapsed duplicates - no in progress.sql",
+		"oF": 0
+		},
+	"\/SQL\/Domain - earliest SSP, collapsed duplicates.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/Domain - earliest SSP, collapsed duplicates.sql",
+		"oF": 0
+		},
+	"\/SQL\/duplicate records for 200030436.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/duplicate records for 200030436.sql",
+		"oF": 0
+		},
+	"\/SQL\/e_user_course.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/e_user_course.sql",
+		"oF": 0
+		},
+	"\/SQL\/earliest participation event.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/earliest participation event.sql",
+		"oF": 0
+		},
+	"\/SQL\/eraliest participation event.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/eraliest participation event.sql",
+		"oF": 0
+		},
+	"\/SQL\/min.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/min.sql",
+		"oF": 0
+		},
+	"\/SQL\/public_e_course.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/public_e_course.sql",
+		"oF": 0
+		},
+	"\/SQL\/SSP repport - earliest participation-deployment.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/SSP repport - earliest participation-deployment.sql",
+		"oF": 0
+		},
+	"\/SQL\/SSP repport - earliest participation-eric.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/SSP repport - earliest participation-eric.sql",
+		"oF": 0
+		},
+	"\/SQL\/Weekly final results from gradebook.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SQL\/Weekly final results from gradebook.sql",
+		"oF": 0
+		},
+	"\/SSP repport - earliest participation.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SSP repport - earliest participation.sql",
+		"oF": 0
+		},
+	"\/temp\/snap-home-3-column-backup": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/snap-home-3-column-backup",
+		"oF": 0
+		},
+	"\/Theme\/all.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/all-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/allbanners.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/allbanners.html",
+		"oF": 0
+		},
+	"\/Theme\/backups\/additional-html-deployment-code-12.07.17.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/backups\/additional-html-deployment-code-12.07.17.html",
+		"oF": 0
+		},
+	"\/Theme\/backups\/additional-html-deployment-code-15.03.17.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/backups\/additional-html-deployment-code-15.03.17.html",
+		"oF": 0
+		},
+	"\/Theme\/backups\/additional-html-deployment-code-23.03.17.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/backups\/additional-html-deployment-code-23.03.17.html",
+		"oF": 0
+		},
+	"\/Theme\/backups\/Dynamic-banner-2.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/Dynamic-banner-2-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Theme\/backups\/Dynamic-banner-backup-02.02.17.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/Dynamic-banner-backup-02.02.17-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Theme\/backups\/Dynamic-banner.beautified.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/Dynamic-banner.beautified-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Theme\/backups\/Dynamic-banner.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/Dynamic-banner-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Theme\/backups\/Dynamic-banner.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/Dynamic-banner.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Theme\/backups\/dynamic-banners-deployment-code-02.03.17.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/backups\/dynamic-banners-deployment-code-02.03.17.html",
+		"oF": 0
+		},
+	"\/Theme\/backups\/Dynamic-Banners.beautified.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/Dynamic-Banners.beautified-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Theme\/backups\/Dynamic-Banners.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/Dynamic-Banners-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Theme\/backups\/Dynamic-Banners.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/Dynamic-Banners.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Theme\/backups\/GOTAFE-AndroTheme-modified.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-AndroTheme-modified-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GoTAFE-Androtheme-Moodle3.1-base-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GoTAFE-Androtheme-Moodle3.1-base-theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GoTAFE-Androtheme-Moodle3.1-modified.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GoTAFE-Androtheme-Moodle3.1-modified-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Androtheme-TestServer-orig.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Androtheme-TestServer-orig-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Moodle3.1--14.12.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Moodle3.1--14.12.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Moodle3.1-08.12.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Moodle3.1-08.12.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Moodle3.1.beautified.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Moodle3.1.beautified-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Moodle3.1.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Moodle3.1-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Moodle3.1.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Moodle3.1.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production backup 01.03.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production backup 01.03.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production backup 02.03.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production backup 02.03.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production backup 08.03.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production backup 08.03.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production backup 12.07.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production backup 12.07.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production backup 15.03.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production backup 15.03.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production backup 15.03.17.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production backup 15.03.17.html",
+		"oF": 0
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production backup 24.01.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production backup 24.01.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production--accessible-Raleway-alternative.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production--accessible-Raleway-alternative-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production--accessible-Tahoma-alternative.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production--accessible-Tahoma-alternative-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production-accessible.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production-accessible-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production-backup 22.12.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production-backup 22.12.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production-backup 29.03.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production-backup 29.03.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--Production.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--Production-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--TestServer backup 03.05.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--TestServer backup 03.05.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Clean--TestServer backup 04.05.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Clean--TestServer backup 04.05.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-course--Production-theme-backup-07.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-course--Production-theme-backup-07.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-course--Production-theme-backup-14.07.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-course--Production-theme-backup-14.07.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-course--Production-theme-backup-21.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-course--Production-theme-backup-21.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-course-modified-07.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-course-modified-07.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-course-modified-backup-13.07.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-course-modified-backup-13.07.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-course-modified-orange-buttons.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-course-modified-orange-buttons-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-course-modified.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-course-modified-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-course-Moodle311.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-course-Moodle311-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-course-orig.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-course-orig-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-HR--TestServer-08.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-HR--TestServer-08.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-HR--TestServer-22.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-HR--TestServer-22.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-HR--TestServer-new-25.08.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-HR--TestServer-new-25.08.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-HR-Modified.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-HR-Modified-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-main--Production-theme-backup-07.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-main--Production-theme-backup-07.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-main--Production-theme-backup-14.07.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-main--Production-theme-backup-14.07.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-main--Production-theme-backup-20.07.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-main--Production-theme-backup-20.07.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-main--Production-theme-backup-21.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-main--Production-theme-backup-21.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-main--Production-theme-backup-31.08.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-main--Production-theme-backup-31.08.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-main--Production-theme-modified-07.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-main--Production-theme-modified-07.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-main-modified-07.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-main-modified-07.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-main-modified.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-main-modified-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-main-orig.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-main-orig-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-ncdea--Production-theme-backup-07.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-ncdea--Production-theme-backup-07.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-ncdea--Production-theme-backup-14.07.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-ncdea--Production-theme-backup-14.07.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-ncdea-modified-07.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-ncdea-modified-07.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-ncee--Production-theme-backup-07.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-ncee--Production-theme-backup-07.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-ncee--Production-theme-backup-14.07.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-ncee--Production-theme-backup-14.07.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-ncee--TestServer-theme-backup-07.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-ncee--TestServer-theme-backup-07.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-ncee--TestServer-theme-backup-25.08.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-ncee--TestServer-theme-backup-25.08.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-ncee-modified-07.09.16.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-ncee-modified-07.09.16-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-Production--Clean-theme--latest-13.07.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-Production--Clean-theme--latest-13.07.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-TestServer--Dynamiic-banners--12.07.17.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-TestServer--Dynamiic-banners--12.07.17-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/backups\/GOTAFE-TestServer--Dynamiic-banners--21.06.17.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/backups\/GOTAFE-TestServer--Dynamiic-banners--21.06.17-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Theme\/GOTAFE-Production--Additional HTML--latest.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/GOTAFE-Production--Additional HTML--latest.html",
+		"oF": 0
+		},
+	"\/Theme\/GOTAFE-Production--Clean-theme--latest.beautified.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/GOTAFE-Production--Clean-theme--latest.beautified-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/GOTAFE-Production--Clean-theme--latest.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/GOTAFE-Production--Clean-theme--latest-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/GOTAFE-Production--Clean-theme--latest.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/GOTAFE-Production--Clean-theme--latest.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/GOTAFE-Production--Dynamiic-banners--latest.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/GOTAFE-Production--Dynamiic-banners--latest-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/Theme\/GOTAFE-TestServer--Dynamiic-banners--latest.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/GOTAFE-TestServer--Dynamiic-banners--latest-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/GOTAFE-TestServer--Dynamiic-banners--latest.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/GOTAFE-TestServer--Dynamiic-banners--latest-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/Theme\/icons\/checkbox - 10pc - 12 x 12.png": {
+		"ft": 32768,
+		"iS": 124,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/checkbox - 10pc - 12 x 12.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/Courses-100px.png": {
+		"ft": 32768,
+		"iS": 11690,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Courses-100px.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/Courses.png": {
+		"ft": 32768,
+		"iS": 7589,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Courses.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/agriculture.png": {
+		"ft": 32768,
+		"iS": 4468,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/agriculture.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/All departmental icons.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/departmental-icons\/All departmental icons.pdf",
+		"oF": 0
+		},
+	"\/Theme\/icons\/departmental-icons\/animal-sciences.png": {
+		"ft": 32768,
+		"iS": 3879,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/animal-sciences.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/art-and-design.png": {
+		"ft": 32768,
+		"iS": 3309,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/art-and-design.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/automotive.png": {
+		"ft": 32768,
+		"iS": 5542,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/automotive.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/beauty.png": {
+		"ft": 32768,
+		"iS": 2228,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/beauty.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/building.png": {
+		"ft": 32768,
+		"iS": 3319,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/building.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/business-and-it.png": {
+		"ft": 32768,
+		"iS": 1755,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/business-and-it.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/child-services.png": {
+		"ft": 32768,
+		"iS": 3942,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/child-services.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/community-services.png": {
+		"ft": 32768,
+		"iS": 3173,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/community-services.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/education-and-training.png": {
+		"ft": 32768,
+		"iS": 4767,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/education-and-training.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/electrical.png": {
+		"ft": 32768,
+		"iS": 4132,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/electrical.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/engineering.png": {
+		"ft": 32768,
+		"iS": 5852,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/engineering.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/events.png": {
+		"ft": 32768,
+		"iS": 2105,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/events.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/hair-dressing.png": {
+		"ft": 32768,
+		"iS": 7244,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/hair-dressing.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/horticulture-and-clm.png": {
+		"ft": 32768,
+		"iS": 3210,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/horticulture-and-clm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/hospitality.png": {
+		"ft": 32768,
+		"iS": 3217,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/hospitality.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/nursing.png": {
+		"ft": 32768,
+		"iS": 4417,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/nursing.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/plumbing.png": {
+		"ft": 32768,
+		"iS": 2637,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/plumbing.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/sport-and-rec.png": {
+		"ft": 32768,
+		"iS": 3940,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/sport-and-rec.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/tourism.png": {
+		"ft": 32768,
+		"iS": 5643,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/tourism.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/departmental-icons\/viticulture-and-winemaking.png": {
+		"ft": 32768,
+		"iS": 2783,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/departmental-icons\/viticulture-and-winemaking.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/HR-100px.png": {
+		"ft": 32768,
+		"iS": 49996,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/HR-100px.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/image003.png@01D30A0C.8F708E40": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/image003.png@01D30A0C.8F708E40",
+		"oF": 0
+		},
+	"\/Theme\/icons\/image004.png@01D30A0C.8F708E40": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/image004.png@01D30A0C.8F708E40",
+		"oF": 0
+		},
+	"\/Theme\/icons\/image005.png@01D30A0C.8F708E40": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/image005.png@01D30A0C.8F708E40",
+		"oF": 0
+		},
+	"\/Theme\/icons\/image006.png@01D30A0C.8F708E40": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/image006.png@01D30A0C.8F708E40",
+		"oF": 0
+		},
+	"\/Theme\/icons\/image008.png@01D30A0C.8F708E40": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/image008.png@01D30A0C.8F708E40",
+		"oF": 0
+		},
+	"\/Theme\/icons\/image009.jpg@01D30A0C.8F708E40": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/image009.jpg@01D30A0C.8F708E40",
+		"oF": 0
+		},
+	"\/Theme\/icons\/image010.png@01D30A0C.8F708E40": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/image010.png@01D30A0C.8F708E40",
+		"oF": 0
+		},
+	"\/Theme\/icons\/image011.png@01D30A0C.8F708E40": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/image011.png@01D30A0C.8F708E40",
+		"oF": 0
+		},
+	"\/Theme\/icons\/Learning and Development banner - 1200 x 300.jpg": {
+		"ft": 16384,
+		"iS": 100733,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - 1200 x 300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/Learning and Development banner - 1600 x 400.jpg": {
+		"ft": 16384,
+		"iS": 153947,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - 1600 x 400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/Learning and Development banner - 2000 x 500.jpg": {
+		"ft": 16384,
+		"iS": 218095,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - 2000 x 500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/Learning and Development banner - 2400 x 600.jpg": {
+		"ft": 16384,
+		"iS": 287676,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - 2400 x 600.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/Learning and Development banner - 2778 x 694.jpg": {
+		"ft": 16384,
+		"iS": 183302,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - 2778 x 694.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/Learning and Development banner - 400 x 100.jpg": {
+		"ft": 16384,
+		"iS": 18280,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - 400 x 100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/Learning and Development banner - 800 x 200.jpg": {
+		"ft": 16384,
+		"iS": 53135,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - 800 x 200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/Learning and Development banner - image only.jpg": {
+		"ft": 16384,
+		"iS": 28455,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - image only.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/Learning and Development banner - narrow - 1160 x 200.jpg": {
+		"ft": 16384,
+		"iS": 42784,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - narrow - 1160 x 200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/Learning and Development banner - narrow - 1335 x 230.jpg": {
+		"ft": 16384,
+		"iS": 72846,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - narrow - 1335 x 230.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/Learning and Development banner - narrow - 580 x 100.jpg": {
+		"ft": 16384,
+		"iS": 15497,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/Learning and Development banner - narrow - 580 x 100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/icons\/NCDE-100px.png": {
+		"ft": 32768,
+		"iS": 18625,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/NCDE-100px.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/NCDE.png": {
+		"ft": 32768,
+		"iS": 28921,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/NCDE.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/NCEE-100px.png": {
+		"ft": 32768,
+		"iS": 24577,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/NCEE-100px.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/NCEE-Logo.png": {
+		"ft": 32768,
+		"iS": 8124,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/NCEE-Logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/NCEE.png": {
+		"ft": 32768,
+		"iS": 43248,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/NCEE.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Colourised deprtamental icons.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Colourised deprtamental icons.sketch",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/GOTAFE Logo_80x40px 1.png": {
+		"ft": 32768,
+		"iS": 1467,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/GOTAFE Logo_80x40px 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/GOTAFE Logo_80x40px-1 1.png": {
+		"ft": 32768,
+		"iS": 1467,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/GOTAFE Logo_80x40px-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/GOTAFE Logo_80x40px-1.png": {
+		"ft": 32768,
+		"iS": 1467,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/GOTAFE Logo_80x40px-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/GOTAFE Logo_80x40px-2.png": {
+		"ft": 32768,
+		"iS": 1467,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/GOTAFE Logo_80x40px-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/GOTAFE Logo_80x40px.png": {
+		"ft": 32768,
+		"iS": 1467,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/GOTAFE Logo_80x40px.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Agriculture 1.png": {
+		"ft": 32768,
+		"iS": 1880,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Agriculture 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Agriculture-1 1.png": {
+		"ft": 32768,
+		"iS": 1880,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Agriculture-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Agriculture-1.png": {
+		"ft": 32768,
+		"iS": 1880,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Agriculture-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Agriculture-2.png": {
+		"ft": 32768,
+		"iS": 1880,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Agriculture-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Agriculture.png": {
+		"ft": 32768,
+		"iS": 1880,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Agriculture.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Animal Science 1.png": {
+		"ft": 32768,
+		"iS": 1624,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Animal Science 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Animal Science-1 1.png": {
+		"ft": 32768,
+		"iS": 1624,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Animal Science-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Animal Science-1.png": {
+		"ft": 32768,
+		"iS": 1624,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Animal Science-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Animal Science-2.png": {
+		"ft": 32768,
+		"iS": 1624,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Animal Science-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Animal Science.png": {
+		"ft": 32768,
+		"iS": 1624,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Animal Science.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Automotive 1.png": {
+		"ft": 32768,
+		"iS": 2201,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Automotive 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Automotive-1 1.png": {
+		"ft": 32768,
+		"iS": 2201,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Automotive-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Automotive-1.png": {
+		"ft": 32768,
+		"iS": 2201,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Automotive-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Automotive-2.png": {
+		"ft": 32768,
+		"iS": 2201,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Automotive-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Automotive.png": {
+		"ft": 32768,
+		"iS": 2201,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Automotive.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Beauty 1.png": {
+		"ft": 32768,
+		"iS": 800,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Beauty 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Beauty-1 1.png": {
+		"ft": 32768,
+		"iS": 800,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Beauty-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Beauty-1.png": {
+		"ft": 32768,
+		"iS": 800,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Beauty-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Beauty-2.png": {
+		"ft": 32768,
+		"iS": 800,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Beauty-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Beauty.png": {
+		"ft": 32768,
+		"iS": 800,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Beauty.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Building 1.png": {
+		"ft": 32768,
+		"iS": 1219,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Building 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Building-1 1.png": {
+		"ft": 32768,
+		"iS": 1219,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Building-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Building-1.png": {
+		"ft": 32768,
+		"iS": 1219,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Building-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Building-2.png": {
+		"ft": 32768,
+		"iS": 1219,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Building-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Building.png": {
+		"ft": 32768,
+		"iS": 1219,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Building.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Business_IT 1.png": {
+		"ft": 32768,
+		"iS": 715,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Business_IT 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Business_IT-1 1.png": {
+		"ft": 32768,
+		"iS": 715,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Business_IT-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Business_IT-1.png": {
+		"ft": 32768,
+		"iS": 715,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Business_IT-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Business_IT-2.png": {
+		"ft": 32768,
+		"iS": 715,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Business_IT-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Business_IT.png": {
+		"ft": 32768,
+		"iS": 715,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Business_IT.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Cabinet_Making 1.png": {
+		"ft": 32768,
+		"iS": 775,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Cabinet_Making 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Cabinet_Making-1 1.png": {
+		"ft": 32768,
+		"iS": 775,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Cabinet_Making-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Cabinet_Making-1.png": {
+		"ft": 32768,
+		"iS": 775,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Cabinet_Making-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Cabinet_Making-2.png": {
+		"ft": 32768,
+		"iS": 775,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Cabinet_Making-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Cabinet_Making.png": {
+		"ft": 32768,
+		"iS": 775,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Cabinet_Making.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Child_Services 1.png": {
+		"ft": 32768,
+		"iS": 1234,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Child_Services 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Child_Services-1 1.png": {
+		"ft": 32768,
+		"iS": 1234,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Child_Services-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Child_Services-1.png": {
+		"ft": 32768,
+		"iS": 1234,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Child_Services-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Child_Services-2.png": {
+		"ft": 32768,
+		"iS": 1234,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Child_Services-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Child_Services.png": {
+		"ft": 32768,
+		"iS": 1234,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Child_Services.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Community_Health 1.png": {
+		"ft": 32768,
+		"iS": 1209,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Community_Health 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Community_Health-1 1.png": {
+		"ft": 32768,
+		"iS": 1209,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Community_Health-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Community_Health-1.png": {
+		"ft": 32768,
+		"iS": 1209,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Community_Health-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Community_Health-2.png": {
+		"ft": 32768,
+		"iS": 1209,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Community_Health-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Community_Health.png": {
+		"ft": 32768,
+		"iS": 1209,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Community_Health.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Creative_Art_Design 1.png": {
+		"ft": 32768,
+		"iS": 1407,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Creative_Art_Design 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Creative_Art_Design-1 1.png": {
+		"ft": 32768,
+		"iS": 1407,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Creative_Art_Design-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Creative_Art_Design-1.png": {
+		"ft": 32768,
+		"iS": 1407,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Creative_Art_Design-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Creative_Art_Design-2.png": {
+		"ft": 32768,
+		"iS": 1407,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Creative_Art_Design-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Creative_Art_Design.png": {
+		"ft": 32768,
+		"iS": 1407,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Creative_Art_Design.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Education_Teaching 1.png": {
+		"ft": 32768,
+		"iS": 1948,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Education_Teaching 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Education_Teaching-1 1.png": {
+		"ft": 32768,
+		"iS": 1948,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Education_Teaching-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Education_Teaching-1.png": {
+		"ft": 32768,
+		"iS": 1948,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Education_Teaching-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Education_Teaching-2.png": {
+		"ft": 32768,
+		"iS": 1948,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Education_Teaching-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Education_Teaching.png": {
+		"ft": 32768,
+		"iS": 1948,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Education_Teaching.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Electrical 1.png": {
+		"ft": 32768,
+		"iS": 1513,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Electrical 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Electrical-1 1.png": {
+		"ft": 32768,
+		"iS": 1513,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Electrical-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Electrical-1.png": {
+		"ft": 32768,
+		"iS": 1513,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Electrical-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Electrical-2.png": {
+		"ft": 32768,
+		"iS": 1513,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Electrical-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Electrical.png": {
+		"ft": 32768,
+		"iS": 1513,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Electrical.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Engineering 1.png": {
+		"ft": 32768,
+		"iS": 2161,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Engineering 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Engineering-1 1.png": {
+		"ft": 32768,
+		"iS": 2161,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Engineering-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Engineering-1.png": {
+		"ft": 32768,
+		"iS": 2161,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Engineering-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Engineering-2.png": {
+		"ft": 32768,
+		"iS": 2161,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Engineering-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Engineering.png": {
+		"ft": 32768,
+		"iS": 2161,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Engineering.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Events 1.png": {
+		"ft": 32768,
+		"iS": 1012,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Events 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Events-1 1.png": {
+		"ft": 32768,
+		"iS": 1012,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Events-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Events-1.png": {
+		"ft": 32768,
+		"iS": 1012,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Events-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Events-2.png": {
+		"ft": 32768,
+		"iS": 1012,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Events-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Events.png": {
+		"ft": 32768,
+		"iS": 1012,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Events.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Hair 1.png": {
+		"ft": 32768,
+		"iS": 1977,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Hair 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Hair-1 1.png": {
+		"ft": 32768,
+		"iS": 1977,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Hair-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Hair-1.png": {
+		"ft": 32768,
+		"iS": 1977,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Hair-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Hair-2.png": {
+		"ft": 32768,
+		"iS": 1977,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Hair-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Hair.png": {
+		"ft": 32768,
+		"iS": 1977,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Hair.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Horticulture_Conservation_LandManagement 1.png": {
+		"ft": 32768,
+		"iS": 1302,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Horticulture_Conservation_LandManagement 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Horticulture_Conservation_LandManagement-1 1.png": {
+		"ft": 32768,
+		"iS": 1302,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Horticulture_Conservation_LandManagement-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Horticulture_Conservation_LandManagement-1.png": {
+		"ft": 32768,
+		"iS": 1302,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Horticulture_Conservation_LandManagement-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Horticulture_Conservation_LandManagement-2.png": {
+		"ft": 32768,
+		"iS": 1302,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Horticulture_Conservation_LandManagement-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Horticulture_Conservation_LandManagement.png": {
+		"ft": 32768,
+		"iS": 1302,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Horticulture_Conservation_LandManagement.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Hospitality 1.png": {
+		"ft": 32768,
+		"iS": 1340,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Hospitality 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Hospitality-1 1.png": {
+		"ft": 32768,
+		"iS": 1340,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Hospitality-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Hospitality-1.png": {
+		"ft": 32768,
+		"iS": 1340,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Hospitality-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Hospitality-2.png": {
+		"ft": 32768,
+		"iS": 1340,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Hospitality-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Hospitality.png": {
+		"ft": 32768,
+		"iS": 1340,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Hospitality.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_NCDE 1.png": {
+		"ft": 32768,
+		"iS": 1589,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_NCDE 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_NCDE-1 1.png": {
+		"ft": 32768,
+		"iS": 1589,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_NCDE-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_NCDE-1.png": {
+		"ft": 32768,
+		"iS": 1589,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_NCDE-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_NCDE-2.png": {
+		"ft": 32768,
+		"iS": 1589,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_NCDE-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_NCDE.png": {
+		"ft": 32768,
+		"iS": 1589,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_NCDE.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_NCEE 1.png": {
+		"ft": 32768,
+		"iS": 1704,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_NCEE 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_NCEE-1 1.png": {
+		"ft": 32768,
+		"iS": 1704,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_NCEE-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_NCEE-1.png": {
+		"ft": 32768,
+		"iS": 1704,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_NCEE-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_NCEE-2.png": {
+		"ft": 32768,
+		"iS": 1704,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_NCEE-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_NCEE.png": {
+		"ft": 32768,
+		"iS": 1704,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_NCEE.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Nursing 1.png": {
+		"ft": 32768,
+		"iS": 1714,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Nursing 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Nursing-1.png": {
+		"ft": 32768,
+		"iS": 1714,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Nursing-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Nursing-2.png": {
+		"ft": 32768,
+		"iS": 1714,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Nursing-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Nursing.png": {
+		"ft": 32768,
+		"iS": 1714,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Nursing.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Outdoor.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Outdoor.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Plumbing 1.png": {
+		"ft": 32768,
+		"iS": 1171,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Plumbing 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Plumbing-2.png": {
+		"ft": 32768,
+		"iS": 1171,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Plumbing-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Plumbing.png": {
+		"ft": 32768,
+		"iS": 1171,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Plumbing.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Sport_Rec 1.png": {
+		"ft": 32768,
+		"iS": 2213,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Sport_Rec 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Sport_Rec-2.png": {
+		"ft": 32768,
+		"iS": 2213,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Sport_Rec-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Sport_Rec.png": {
+		"ft": 32768,
+		"iS": 2213,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Sport_Rec.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Tourism 1.png": {
+		"ft": 32768,
+		"iS": 2366,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Tourism 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Tourism-2.png": {
+		"ft": 32768,
+		"iS": 2366,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Tourism-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Tourism.png": {
+		"ft": 32768,
+		"iS": 2366,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Tourism.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Viticulture_Winemaking 1.png": {
+		"ft": 32768,
+		"iS": 1130,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Viticulture_Winemaking 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Viticulture_Winemaking-2.png": {
+		"ft": 32768,
+		"iS": 1130,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Viticulture_Winemaking-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Viticulture_Winemaking.png": {
+		"ft": 32768,
+		"iS": 1130,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Viticulture_Winemaking.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational-1 1.png": {
+		"ft": 32768,
+		"iS": 1255,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational-1 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational-1.png": {
+		"ft": 32768,
+		"iS": 1255,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational-3.png": {
+		"ft": 32768,
+		"iS": 1948,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_1.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_1.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_10.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_10.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_11.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_11.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_12.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_12.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_13.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_13.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_14.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_14.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_15.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_15.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_16.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_16.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_17.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_17.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_18.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_18.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_19.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_19.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_2.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_2.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_20.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_20.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_21.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_21.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_22.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_22.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_23.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_23.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_24.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_24.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_25.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_25.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_26.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_26.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_27.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_27.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_3.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_3.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_4.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_4.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_5.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_5.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_6.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_6.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_7.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_7.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_8.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_8.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_9.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/Icon_Vocational_9.eps",
+		"oF": 0
+		},
+	"\/Theme\/icons\/ORIG Departmental icons\/image001.png": {
+		"ft": 32768,
+		"iS": 1255,
+		"oA": 0,
+		"oAP": "\/Theme\/icons\/ORIG Departmental icons\/image001.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Theme\/images\/default banner-1680w.jpg": {
+		"ft": 16384,
+		"iS": 1593354,
+		"oA": 0,
+		"oAP": "\/Theme\/images\/default banner-1680w.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/Theme\/test\/checklist-alternative-design.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/test\/checklist-alternative-design-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/test\/checklist.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/test\/checklist-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/test\/departmental-banners-snippet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/test\/departmental-banners-snippet-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Theme\/test\/new banners\/Banner concepts.jpg": {
+		"ft": 16384,
+		"iS": 39436,
+		"oA": 0,
+		"oAP": "\/Theme\/test\/new banners\/Banner concepts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/test\/new banners\/Banner concepts2.jpg": {
+		"ft": 16384,
+		"iS": 41889,
+		"oA": 0,
+		"oAP": "\/Theme\/test\/new banners\/Banner concepts2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/test\/new banners\/Banner concepts3.jpg": {
+		"ft": 16384,
+		"iS": 44056,
+		"oA": 0,
+		"oAP": "\/Theme\/test\/new banners\/Banner concepts3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/test\/new banners\/Banner concepts4.jpg": {
+		"ft": 16384,
+		"iS": 34029,
+		"oA": 0,
+		"oAP": "\/Theme\/test\/new banners\/Banner concepts4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/test\/new banners\/Banner concepts5.jpg": {
+		"ft": 16384,
+		"iS": 33026,
+		"oA": 0,
+		"oAP": "\/Theme\/test\/new banners\/Banner concepts5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/test\/new banners\/Design mock up.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Theme\/test\/new banners\/Design mock up.pdf",
+		"oF": 0
+		},
+	"\/Theme\/test\/new banners\/viticulture.jpg": {
+		"ft": 16384,
+		"iS": 132004,
+		"oA": 0,
+		"oAP": "\/Theme\/test\/new banners\/viticulture.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Theme\/test\/test-fileheaders.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Theme\/test\/test-fileheaders-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/untitled.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/untitled.sql",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 531025842,
+	"displayValue": "GOTAFE",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-grumpy"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 3,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

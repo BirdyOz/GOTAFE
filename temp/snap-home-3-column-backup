@@ -1,0 +1,36 @@
+<center> <h4>Need help?</h4>
+    <p>New user?&nbsp; Returning user?&nbsp; We all need help from time to time.</p> </center> <hr>
+<div class="row">
+    <div class="col-xs-4 text-center">
+        <h5>Student Help&nbsp;</h5>
+        <p>
+            <img src="https://gotafe-sandbox.mrooms.net/draftfile.php/190/user/draft/88410191/laura.jpg" alt="Student Help" role="presentation" style="margin:0 auto;border-radius:100%;" class="img-responsive atto_image_button_text-bottom" width="700" height="700">
+        </p>
+        <p>
+            </p><div>
+                <div>
+                    <p>Select from the links below to find out how to access GOTAFE Moodle and other services.</p><small> <a href="#" class="">Getting started - Video</a>&nbsp;<br>
+                    <a href="#" class="">How to gain access to Moodle</a> <br>
+                    <a href="#" class="">Email login and setup</a> <br>
+                    <a href="#" class="">Wireless access</a> <br></small>
+                </div>
+            </div>&nbsp; <br>
+        <p></p>
+    </div>
+    <div class="col-xs-4 text-center">
+        <h5>YourTutor</h5>
+        <p>
+            <img src="https://gotafe-sandbox.mrooms.net/draftfile.php/190/user/draft/88410191/YourTutor.png" alt="YourTutor" role="presentation" class="img-responsive atto_image_button_text-bottom" style="margin:0 auto;border-radius:100%;" width="400" height="400">
+        </p>
+        <p>
+            </p><p>Access study help online &amp; on demand.&nbsp;&nbsp;<span style="font-size: 1rem;">Live chat with an Australian Tutor 3pm-Midnight, Sunday to Friday</span></p><a href="#" class="btn btn-primary">Access YourTutor</a><p></p>
+        <p></p>
+    </div>
+    <div class="col-xs-4 text-center">
+        <h5>TextAid</h5>
+        <p>
+            <img src="https://gotafe-sandbox.mrooms.net/draftfile.php/190/user/draft/88410191/TextAid.png" alt="ReadSpeaker TextAid" role="presentation" style="margin:0 auto;border-radius:100%;" class="img-responsive atto_image_button_text-bottom" width="400" height="400">
+        </p>
+        <p>Use TextAid to listen to text on all websites, or upload your own files and have them read aloud.</p>
+        <a href="#" class="btn btn-primary">Access TextAid</a></div>
+</div>

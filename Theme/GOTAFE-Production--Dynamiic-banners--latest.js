@@ -1,8 +1,8 @@
 /*
-*  @Author   : Greg Bird (@BirdyOz, greg.bird.oz@gmail.com)
-*  @Created  : 2017-03-31 13:08:18
-*  @Modified : 2017-03-31 13:13:18
-*/
+ *  @Author   : Greg Bird (@BirdyOz, greg.bird.oz@gmail.com)
+ *  @Created  : 2017-03-31 13:08:18
+ *  @Modified : 2017-10-11 08:02:39
+ */
 
 
 /*
@@ -22,26 +22,19 @@ $.noConflict();
 jQuery(document).ready(function($) {
     // $(document).ready(function() {
     // Define global variables
-    var logo, codes_array, details_array, code_text, title_text, audience_text, year_text = "";
+    var logo, codes_array, details_array, code_text, title_text, audience_text, audience_name, year_text = "";
 
     //Set default branding logo to 'Main'
-    logo = "Main";
+    $('header#page-header').addClass("Main");
 
-    console.log('logo', logo);
 
-    // Extract breadcrumbs.  Create an array
-    var breadcrumbs = $("ul.breadcrumb span[itemprop='title']");
+    // Extract breadcrumbs.  Create an array.  Only select items from breadcrumbs which refer to categories.
+    var breadcrumbs = $("ul.breadcrumb a[href*='categoryid'] span[itemprop='title']");
 
     // Loop through the breadcrumbs, looking for sub-branding
     $(breadcrumbs).each(function() {
         var breadcrumb = $(this).text();
 
-        // If one of the major sub-brandings
-        if (breadcrumb === 'NCEE' || breadcrumb === 'NCDE' || breadcrumb === 'HR') {
-            logo = breadcrumb;
-            // If I have found my match, break out of the loop
-            return false;
-        }
         // Convert breadcrumb into "slug", then add class to #page-header.
         // This will allow for more granular sub-branding, once banner images have been developed
 
@@ -49,12 +42,10 @@ jQuery(document).ready(function($) {
         $('header#page-header').addClass(breadcrumb_class);
     });
 
-    //Add class to banner.  This will allow for custom logos (sub-branding)
-    $('header#page-header').addClass(logo);
+
 
     // Extract course short description from breadcrumbs.  It is the current banner header
     var description = $('.page-header-headings > h1').text();
-    console.log('description', description);
 
     // This regex pattern matches the GOTAFE 2017 course naming convention
     //  UNIT CODE: Unit Title ([Audience, ]Year)
@@ -82,11 +73,9 @@ jQuery(document).ready(function($) {
     // Only parses title if it matches the naming convention; ie it matches the pattern defined by the regex
     // This is to avoid unnecessary processing of descriptions that do not match the naming convention
     if (TitleArray) {
-        console.log('TitleArray', TitleArray);
 
         // Extract codes_array
         codes_array = TitleArray[1].split("|").sort();
-        console.log('codes_array', codes_array);
         // Trim whitespace
         codes_array = $.map(codes_array, function(value) {
             return value.trim();
@@ -114,7 +103,6 @@ jQuery(document).ready(function($) {
 
         // Extract descriptive title
         title_text = TitleArray[2].trim();
-        console.log('title_text', title_text);
 
         // Update banner heading, to match descriptive title
         $('.page-header-headings > h1').text(title_text);
@@ -124,21 +112,35 @@ jQuery(document).ready(function($) {
         details_array = $.map(details_array, function(value) {
             return value.trim();
         });
-        console.log('details_array', details_array);
 
         // Separate out year from audience
         if (details_array.length === 1) {
             year_text = details_array[0];
-            console.log('year_text', year_text);
         } else {
             // If there is an audience, add it to the banner
             audience_str = details_array.slice(0, details_array.length - 1).join(", ");
-            audience_text = "<div id =\"audience\"><span>Audience: <\/span>" + audience_str + "<\/div>";
+
+            // Get the friendly name for this audience
+            if (audience_str.indexOf('-') !== -1) {
+                audience_name = "";
+                audience_arr = audience_str.split("-");
+                audience_newarr = [];
+                $.each(audience_arr, function(index, val) {
+                    var friendly = friendlyname(val);
+                    audience_newarr.push(friendly);
+                    // audience_name = audience_name + friendly + ", ";
+                });
+                audience_name = audience_newarr.join(", ");
+            } else {
+                audience_name = friendlyname(audience_str);
+            }
+
+            console.log("@GB: audience_name = ", audience_name);
+            audience_text = "<div id =\"audience\"><span>Audience: <\/span>" + audience_name + "<\/div>";
             $('.page-header-headings').append(audience_text);
 
             // Add 'Audience' class to #page-header.
             var audience_class = "audience-" + slugify(audience_str);
-            console.log('audience_class', audience_class);
             $('header#page-header').addClass(audience_class);
             year_text = details_array[details_array.length - 1];
         }
@@ -154,6 +156,20 @@ jQuery(document).ready(function($) {
         if (year_text.substring(0, 2) === "ID") {
             // Add footer to 'Year' panel
             $('#year').prepend("<div class=\"panel-heading\">In Development<\/div>");
+            $('#year').addClass("panel-danger");
+        }
+
+        // Is this subject 'In Development'?
+        if (year_text.substring(0, 2) === "LD") {
+            // Add footer to 'Year' panel
+            $('#year').prepend("<div class=\"panel-heading\">Learning Development<\/div>");
+            $('#year').addClass("panel-danger");
+        }
+
+        // Is this subject 'In Development'?
+        if (year_text.substring(0, 2) === "SP") {
+            // Add footer to 'Year' panel
+            $('#year').prepend("<div class=\"panel-heading\">Staff Sandpit<\/div>");
             $('#year').addClass("panel-danger");
         }
 
@@ -173,6 +189,14 @@ jQuery(document).ready(function($) {
 
     // Add additional instructions to the ReadSpeaker block
     $('.block_readspeaker_embhl>.content').append("<small>Highlight the text that you would like to hear, then click the 'play' button. <br> <a  target=\"_blank\" href=\"https://youtu.be/6RpliafTRDI\">(Watch a tutorial)</a> </small>");
+
+    // My Grades interface only.  Change Hyphens ("-") to "Incomplete"
+    // if (window.location.pathname === "/grade/report/overview/index.php") {
+    //     console.log("@GB: window.location.pathname = ", window.location.pathname);
+    //     $(".cell.c1").filter(function() {
+    //         return $(this).text() === "-";
+    //     }).text('Incomplete');
+    // } else {}
 });
 
 
@@ -185,4 +209,57 @@ function slugify(text) {
         .replace(/^-+/, '') // Trim - from start of text
         .replace(/-+$/, '') // Trim - from end of text
         .replace(/[\s_-]+/g, '-');
+}
+
+function friendlyname(text) {
+    // Translate audience abbreviations into human readable alternatives
+    var shortname = slugify(text);
+    var longname = "";
+    var audiences = {
+        "ag": "Agriculture",
+        "agedcare": "Aged Care",
+        "allhlth": "Allied Health",
+        "ansci": "Animal Sciences",
+        "auto": "Automotive",
+        "beauty": "Beauty",
+        "build": "Building and Construction",
+        "bus": "Business",
+        "cab": "Cabinet Making",
+        "carptry": "Carpentry",
+        "childserv": "Childrens Services",
+        "clm": "Conservation and Land Management",
+        "comserv": "Community Services",
+        "csu": "Charles Sturt University",
+        "dairy": "Dairy",
+        "design": "Design",
+        "elec": "Electrical",
+        "edsupt": "Educational Support",
+        "foodpro": "Food Production",
+        "gamedev": "Game Development",
+        "glass": "Glass",
+        "hair": "Hairdressing",
+        "hort": "Horticulture",
+        "hosp": "Hospitality",
+        "hydropon": "Hydroponics",
+        "it": "Information Technology",
+        "jnry": "Joinery",
+        "learndev": "Learning and Development",
+        "lsu": "Learning Skills Unit",
+        "ncee": "NCEE",
+        "nurse": "Nursing",
+        "plumb": "Plumbing",
+        "rec": "Outdoor Recreation",
+        "sport": "Sport",
+        "tourism": "Tourism",
+        "trainassess": "Training and Assessment",
+        "vit": "Viticulture",
+        "voc": "Vocational",
+        "wine": "Winemaking"
+    };
+    if (shortname in audiences) {
+        longname = audiences[shortname];
+    } else {
+        longname = text;
+    }
+    return longname;
 }
