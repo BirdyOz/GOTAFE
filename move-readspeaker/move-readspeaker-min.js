@@ -1,1 +1,1 @@
-$(function(){var e=$(".block_readspeaker_embhl").detach();console.log("@GB: RS_player = ",e),$("#region-main").prepend(e)});
+$(function(){$("head").append('<link rel="stylesheet" type="text/css" href="https://rawgit.com/BirdyOz/GOTAFE/master/move-readspeaker/move-readspeaker.css">');var e=$(".block_readspeaker_embhl").detach();$("#region-main").before(e)});
