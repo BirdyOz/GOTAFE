@@ -683,32 +683,42 @@
 		"oAP": "\/Jaspersoft\/~$Potential issues in SSP and FINAL activities 16.08.17.xlsx",
 		"oF": 0
 		},
-	"\/JS\/move-readspeaker-min.js": {
+	"\/move-readspeaker\/move-readspeaker-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/JS\/move-readspeaker-min-min.js",
+		"oAP": "\/move-readspeaker\/move-readspeaker-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/JS\/move-readspeaker.js": {
+	"\/move-readspeaker\/move-readspeaker.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/move-readspeaker\/move-readspeaker-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/move-readspeaker\/move-readspeaker.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/JS\/move-readspeaker-min.js",
+		"oAP": "\/move-readspeaker\/move-readspeaker-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/JS\/move-reaspeaker.js": {
+	"\/move-readspeaker\/move-reaspeaker.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/JS\/move-reaspeaker-min.js",
+		"oAP": "\/move-readspeaker\/move-reaspeaker-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
