@@ -1,0 +1,1 @@
+$(function(){var e=$(".block_readspeaker_embhl").detach();$("#region-main").prepend(e)});

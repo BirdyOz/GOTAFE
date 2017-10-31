@@ -683,6 +683,16 @@
 		"oAP": "\/Jaspersoft\/~$Potential issues in SSP and FINAL activities 16.08.17.xlsx",
 		"oF": 0
 		},
+	"\/JS\/move-readspeaker.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/JS\/move-readspeaker-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/JS\/move-reaspeaker.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2054,6 +2064,16 @@
 		"oAP": "\/Theme\/GOTAFE-Production--Clean-theme--latest.min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/Theme\/GOTAFE-Production--Dynamiic-banners--latest-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Theme\/GOTAFE-Production--Dynamiic-banners--latest-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/Theme\/GOTAFE-Production--Dynamiic-banners--latest.js": {
 		"ft": 64,
