@@ -683,6 +683,16 @@
 		"oAP": "\/Jaspersoft\/~$Potential issues in SSP and FINAL activities 16.08.17.xlsx",
 		"oF": 0
 		},
+	"\/JS\/move-readspeaker-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/JS\/move-readspeaker-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/JS\/move-readspeaker.js": {
 		"ft": 64,
 		"ma": 0,
