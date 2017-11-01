@@ -2,7 +2,7 @@
 * @Author: Greg Bird (@BirdyOz, greg.bird.oz@gmail.com)
 * @Date:   2017-11-01 09:58:57
 * @Last Modified by:   BirdyOz
-* @Last Modified time: 2017-11-01 10:10:37
+* @Last Modified time: 2017-11-02 09:08:50
 */
 
 .block_readspeaker_embhl {
@@ -10,6 +10,7 @@
     float: right;
     margin: 0 !important;
     padding: 0 !important;
+    z-index: 12;
 }
 
 .block_readspeaker_embhl h3 {
